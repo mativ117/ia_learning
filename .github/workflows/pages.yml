@@ -22,7 +22,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir _site
-          cp index.html style.css theme.css app.js learning.js labs.js i18n.js _site/
+          cp index.html style.css theme.css app.js learning.js labs.js i18n.js focus-mode.js _site/
           cp -r data _site/data
           cp -r locales _site/locales
           touch _site/.nojekyll

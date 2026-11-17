@@ -36,6 +36,12 @@ Completing a decision is a progress checkpoint, not proof of durable mastery. Th
 
 The reference archive contains text from all 121 non-empty slides, 67 tables and source links. Original illustrations and slide layout are not reproduced. The main learning journey is an adaptation for the web, rather than a slide viewer.
 
+## Fullscreen training and readability
+
+Use **Full screen** in a lesson, the experiment deck or the practice area to hide navigation and concentrate on the training. A fixed **Exit full screen** button and Escape restore the interface. Native browser fullscreen is used where available; a distraction-free page layout is used if it is unavailable or refused. Switching these modes does not recreate the activity, so current answers and lab inputs remain in place. Escape closes an open quiz dialog first, then exits training mode on the next press.
+
+Secondary text, instructions and form labels use larger sizes and brighter colours. Representative body-copy and interface colours are checked for at least 4.5:1 contrast, alongside real browser checks.
+
 ## Visuals and motion
 
 The circuit signal, mission icons, interactive borders and completion feedback use lightweight SVG and CSS. There is no audio, timer or penalty for mistakes. The header motion control respects the operating system's reduced-motion setting initially; users can explicitly override it. The preference is saved locally. Narrow layouts retain the language selector and motion control.
@@ -62,6 +68,7 @@ The workflow uploads only runtime HTML, CSS, JavaScript, `data/` and `locales/`.
 - `i18n.js`: language bootstrap, data localisation, interface text lookup, language links and motion preferences. No translation API is used. French uses the original source text.
 - `data/source.json`: original training text, tables and links, excluding the removed business branding.
 - `app.js`, `learning.js`, `labs.js`: application, guided learning and simulations.
+- `focus-mode.js`: native fullscreen, focus-layout fallback, exit controls and keyboard handling.
 - `style.css`, `theme.css`: structure, midnight theme, responsive layouts and motion.
 
 When changing a concept, update each language and its feedback together. The translations are authored educational adaptations; native-speaker and domain review is recommended before organisational rollout. Product capabilities, certifications, pricing and legal timelines in the source reflect its October 2026 edition and need official verification before decisions.
