@@ -1,0 +1,1814 @@
+{
+  "Parcours": [
+    "Journey",
+    "Ruta",
+    "学习路径",
+    "यात्रा"
+  ],
+  "Pratiquer": [
+    "Practice",
+    "Practicar",
+    "练习",
+    "अभ्यास"
+  ],
+  "Ressources": [
+    "Resources",
+    "Recursos",
+    "资源",
+    "संसाधन"
+  ],
+  "Apprentissage": [
+    "Learning hub",
+    "Aprendizaje",
+    "学习中心",
+    "अध्ययन केंद्र"
+  ],
+  "Mon parcours": [
+    "My journey",
+    "Mi ruta",
+    "我的路径",
+    "मेरी यात्रा"
+  ],
+  "Rechercher un concept…": [
+    "Search a concept…",
+    "Buscar un concepto…",
+    "搜索概念…",
+    "अवधारणा खोजें…"
+  ],
+  "IA pour les": [
+    "AI for",
+    "IA para",
+    "人工智能 ·",
+    "AI इनके लिए"
+  ],
+  "Progression enregistrée sur cet appareil": [
+    "Progress saved on this device",
+    "Progreso guardado en este dispositivo",
+    "进度保存在此设备",
+    "प्रगति इस उपकरण पर सहेजी गई"
+  ],
+  "À votre rythme.": [
+    "At your own pace.",
+    "A tu ritmo.",
+    "按自己的节奏。",
+    "अपनी गति से।"
+  ],
+  "Édition octobre 2026": [
+    "October 2026 edition",
+    "Edición de octubre de 2026",
+    "2026年10月版",
+    "अक्टूबर 2026 संस्करण"
+  ],
+  "Parcours IA": [
+    "AI learning path",
+    "Ruta de IA",
+    "AI学习路径",
+    "AI अध्ययन यात्रा"
+  ],
+  "Explorer les connaissances": [
+    "Explore the knowledge base",
+    "Explorar conocimientos",
+    "探索知识库",
+    "ज्ञान खोजें"
+  ],
+  "RAG, prompting, gouvernance…": [
+    "RAG, prompting, governance…",
+    "RAG, prompts, gobernanza…",
+    "RAG、提示词、治理…",
+    "RAG, प्रॉम्प्ट, शासन…"
+  ],
+  "Fermer": [
+    "Close",
+    "Cerrar",
+    "关闭",
+    "बंद करें"
+  ],
+  "Aller au contenu": [
+    "Skip to content",
+    "Ir al contenido",
+    "跳到内容",
+    "सामग्री पर जाएँ"
+  ],
+  "Ouvrir le menu": [
+    "Open menu",
+    "Abrir menú",
+    "打开菜单",
+    "मेनू खोलें"
+  ],
+  "LE PARCOURS IA POUR LES BUSINESS ANALYSTS": [
+    "YOUR AI MISSION CONTROL",
+    "TU CENTRO DE MISIONES IA",
+    "你的AI任务中心",
+    "आपका AI मिशन केंद्र"
+  ],
+  "Comprendre. Pratiquer.": [
+    "Understand. Experiment.",
+    "Comprende. Experimenta.",
+    "理解。探索。",
+    "समझें। प्रयोग करें।"
+  ],
+  "Avancer avec confiance.": [
+    "Build lasting skills.",
+    "Construye habilidades duraderas.",
+    "掌握长久有用的能力。",
+    "टिकाऊ कौशल बनाएँ।"
+  ],
+  "Un concept à la fois, des situations métier et des expériences pour comprendre ce qui change.": [
+    "Explore one concept, make a business decision, then test what changes. Your next mission starts here.",
+    "Explora un concepto, toma una decisión y prueba qué cambia. Tu próxima misión empieza aquí.",
+    "学一个概念，做一次业务决策，再测试变化。下一项任务从这里开始。",
+    "एक अवधारणा समझें, व्यावसायिक निर्णय लें और बदलाव परखें। अगला मिशन यहीं है।"
+  ],
+  "REPRENDRE LE PARCOURS": [
+    "CONTINUE YOUR MISSION",
+    "CONTINUAR MISIÓN",
+    "继续任务",
+    "मिशन जारी रखें"
+  ],
+  "POUR COMMENCER": [
+    "FIRST MISSION",
+    "PRIMERA MISIÓN",
+    "第一个任务",
+    "पहला मिशन"
+  ],
+  "Continuer →": [
+    "Continue →",
+    "Continuar →",
+    "继续 →",
+    "आगे बढ़ें →"
+  ],
+  "C’est parti →": [
+    "Launch mission →",
+    "Iniciar misión →",
+    "开始任务 →",
+    "मिशन शुरू करें →"
+  ],
+  "Les 6 étapes": [
+    "Mission map",
+    "Mapa de misiones",
+    "任务地图",
+    "मिशन मानचित्र"
+  ],
+  "Votre rythme. Votre point de départ.": [
+    "6 missions. 36 decisions. Your pace.",
+    "6 misiones. 36 decisiones. A tu ritmo.",
+    "6项任务，36次决策，按自己的节奏。",
+    "6 मिशन। 36 निर्णय। अपनी गति से।"
+  ],
+  "6 séquences": [
+    "6 sequences",
+    "6 secuencias",
+    "6个学习单元",
+    "6 अध्ययन चरण"
+  ],
+  "Fondamentaux": [
+    "Foundations",
+    "Fundamentos",
+    "基础",
+    "आधार"
+  ],
+  "Socle commun": [
+    "Foundations",
+    "Fundamentos",
+    "基础",
+    "आधार"
+  ],
+  "Practitioner": [
+    "Practitioner",
+    "Práctica profesional",
+    "实践进阶",
+    "व्यावहारिक"
+  ],
+  "Avancé": [
+    "Advanced",
+    "Avanzado",
+    "高级",
+    "उन्नत"
+  ],
+  "Reprendre": [
+    "Resume",
+    "Retomar",
+    "继续",
+    "जारी रखें"
+  ],
+  "Commencer": [
+    "Start",
+    "Empezar",
+    "开始",
+    "शुरू करें"
+  ],
+  "Reprendre →": [
+    "Resume →",
+    "Retomar →",
+    "继续 →",
+    "जारी रखें →"
+  ],
+  "Commencer →": [
+    "Start →",
+    "Empezar →",
+    "开始 →",
+    "शुरू करें →"
+  ],
+  "✓ Terminé": [
+    "✓ Completed",
+    "✓ Completado",
+    "✓ 已完成",
+    "✓ पूरा"
+  ],
+  "{n} décisions sur {total} validées": [
+    "{n} of {total} decisions completed",
+    "{n} de {total} decisiones completadas",
+    "已完成{n}/{total}次决策",
+    "{total} में से {n} निर्णय पूरे"
+  ],
+  "{n} décision sur {total} validée": [
+    "{n} of {total} decisions completed",
+    "{n} de {total} decisiones completadas",
+    "已完成{n}/{total}次决策",
+    "{total} में से {n} निर्णय पूरे"
+  ],
+  "{n}/{total} validées": [
+    "{n}/{total} completed",
+    "{n}/{total} completadas",
+    "已完成{n}/{total}",
+    "{n}/{total} पूरे"
+  ],
+  "← Mon parcours": [
+    "← My journey",
+    "← Mi ruta",
+    "← 我的路径",
+    "← मेरी यात्रा"
+  ],
+  "VOTRE ITINÉRAIRE": [
+    "MISSION CHECKLIST",
+    "PLAN DE MISIÓN",
+    "任务清单",
+    "मिशन सूची"
+  ],
+  "séquences": [
+    "sequences",
+    "secuencias",
+    "学习单元",
+    "चरण"
+  ],
+  "Leçon": [
+    "Learn",
+    "Aprender",
+    "学习",
+    "सीखें"
+  ],
+  "Défi": [
+    "Challenge",
+    "Reto",
+    "挑战",
+    "चुनौती"
+  ],
+  "Labo": [
+    "Lab",
+    "Laboratorio",
+    "实验室",
+    "प्रयोगशाला"
+  ],
+  "SÉQUENCE {n} / {total}": [
+    "SEQUENCE {n} / {total}",
+    "SECUENCIA {n} / {total}",
+    "单元 {n} / {total}",
+    "चरण {n} / {total}"
+  ],
+  "ÉTAPE {n} / 6 · {stage}": [
+    "MISSION {n} / 6 · {stage}",
+    "MISIÓN {n} / 6 · {stage}",
+    "任务 {n} / 6 · {stage}",
+    "मिशन {n} / 6 · {stage}"
+  ],
+  "Apprentissage / {stage}": [
+    "Learning / {stage}",
+    "Aprendizaje / {stage}",
+    "学习 / {stage}",
+    "अध्ययन / {stage}"
+  ],
+  "Explorer le schéma du concept": [
+    "Explore the concept map",
+    "Explorar el esquema",
+    "展开概念图",
+    "अवधारणा मानचित्र देखें"
+  ],
+  "DANS LE TRAVAIL D’UN BUSINESS ANALYST": [
+    "IN A BUSINESS ANALYST'S WORK",
+    "EN EL TRABAJO DE ANÁLISIS",
+    "应用到业务分析工作",
+    "BUSINESS ANALYST के काम में"
+  ],
+  "✓ Décision déjà validée": [
+    "✓ Decision already completed",
+    "✓ Decisión completada",
+    "✓ 已完成此决策",
+    "✓ निर्णय पहले पूरा हुआ"
+  ],
+  "À présent, appliquez ce concept.": [
+    "Now put the concept to work.",
+    "Ahora aplica el concepto.",
+    "现在应用这个概念。",
+    "अब अवधारणा लागू करें।"
+  ],
+  "À vous de décider →": [
+    "Make the call →",
+    "Decide tú →",
+    "做出决策 →",
+    "निर्णय लें →"
+  ],
+  "UNE SITUATION, UNE DÉCISION": [
+    "SCENARIO // MAKE THE CALL",
+    "ESCENARIO // DECIDE",
+    "场景 // 做出决策",
+    "स्थिति // निर्णय लें"
+  ],
+  "Choisissez ce que vous proposeriez à l’équipe. Vous pouvez essayer et comprendre vos erreurs.": [
+    "Choose what you would propose to your team. Mistakes are a chance to investigate, not a penalty.",
+    "Elige qué propondrías al equipo. Equivocarse permite aprender, no es un castigo.",
+    "选择你会向团队提出的建议。错误是理解的机会，不是惩罚。",
+    "टीम को क्या सुझाएँगे? गलती समझने का अवसर है, सज़ा नहीं।"
+  ],
+  "Expliquer mon raisonnement avant de choisir": [
+    "Explain my reasoning before choosing",
+    "Explicar mi razonamiento antes de elegir",
+    "先解释思路，再选择",
+    "चुनने से पहले अपना तर्क लिखें"
+  ],
+  "Qu’est-ce qui justifie votre décision ?": [
+    "What supports your decision?",
+    "¿Qué justifica tu decisión?",
+    "你的决策依据是什么？",
+    "आपके निर्णय का आधार क्या है?"
+  ],
+  "En une ou deux phrases…": [
+    "In one or two sentences…",
+    "En una o dos frases…",
+    "用一两句话说明…",
+    "एक-दो वाक्यों में…"
+  ],
+  "Note personnelle pour cette session, sans correction automatique.": [
+    "Personal session note; not automatically graded.",
+    "Nota de esta sesión; sin evaluación automática.",
+    "本次学习的个人笔记，不自动评分。",
+    "इस सत्र की निजी टिप्पणी; स्वतः मूल्यांकन नहीं।"
+  ],
+  "LE RAISONNEMENT À RETENIR": [
+    "THE REASONING TO REMEMBER",
+    "EL RAZONAMIENTO CLAVE",
+    "记住这个推理",
+    "याद रखने वाला तर्क"
+  ],
+  "POURQUOI REVOIR CE CHOIX ?": [
+    "WHY RECONSIDER THIS CHOICE?",
+    "¿POR QUÉ REVISAR ESTA OPCIÓN?",
+    "为什么要重新考虑？",
+    "इस विकल्प पर दोबारा क्यों सोचें?"
+  ],
+  "← Revoir le concept": [
+    "← Revisit the concept",
+    "← Revisar el concepto",
+    "← 回顾概念",
+    "← अवधारणा दोहराएँ"
+  ],
+  "Valider et continuer →": [
+    "Complete and continue →",
+    "Completar y continuar →",
+    "完成并继续 →",
+    "पूरा करें और आगे बढ़ें →"
+  ],
+  "La correction apparaît après votre choix.": [
+    "Choose an option to explore the feedback.",
+    "Elige para ver la explicación.",
+    "选择后查看解释。",
+    "समझाने वाला feedback पाने के लिए चुनें।"
+  ],
+  "Expérimentez librement : les paramètres restent locaux à ce laboratoire.": [
+    "Experiment freely. Parameters stay within this lab.",
+    "Experimenta: los parámetros quedan en este laboratorio.",
+    "自由实验，参数仅作用于此实验室。",
+    "प्रयोग करें। सेटिंग इसी प्रयोगशाला में रहती है।"
+  ],
+  "Reprendre la séquence →": [
+    "Return to the sequence →",
+    "Volver a la secuencia →",
+    "返回学习单元 →",
+    "चरण पर लौटें →"
+  ],
+  "LES SIX DÉCISIONS ONT ÉTÉ PARCOURUES": [
+    "SIX DECISIONS COMPLETED",
+    "SEIS DECISIONES COMPLETADAS",
+    "已完成六次决策",
+    "छह निर्णय पूरे"
+  ],
+  "Vous avez fait avancer votre raisonnement.": [
+    "Mission complete. Keep the skill alive.",
+    "Misión cumplida. Sigue practicando.",
+    "任务完成，继续巩固能力。",
+    "मिशन पूरा। कौशल का अभ्यास जारी रखें।"
+  ],
+  "Une bonne réponse dans un exercice est un repère. Pour consolider, modifiez les paramètres du laboratoire et appliquez les idées à un livrable de votre projet.": [
+    "One correct answer is a checkpoint, not proof of lasting mastery. Experiment in the lab, then apply the idea to a deliverable from your project.",
+    "Una respuesta correcta no demuestra dominio duradero. Experimenta y aplica la idea a un entregable real.",
+    "答对一次是一个检查点，不代表长期掌握。请在实验室探索，再应用到项目交付物。",
+    "एक सही उत्तर स्थायी महारत नहीं है। प्रयोग करें और विचार को अपने प्रोजेक्ट में लागू करें।"
+  ],
+  "Expérimenter dans le labo": [
+    "Experiment in the lab",
+    "Experimentar",
+    "进入实验室",
+    "प्रयोगशाला में अभ्यास करें"
+  ],
+  "Étape suivante : {stage} →": [
+    "Next mission: {stage} →",
+    "Siguiente misión: {stage} →",
+    "下一任务：{stage} →",
+    "अगला मिशन: {stage} →"
+  ],
+  "Revenir à mon parcours →": [
+    "Return to my journey →",
+    "Volver a mi ruta →",
+    "返回我的路径 →",
+    "मेरी यात्रा पर लौटें →"
+  ],
+  "COMPRENDRE EN MANIPULANT": [
+    "EXPERIMENT DECK",
+    "ZONA DE EXPERIMENTOS",
+    "实验舱",
+    "प्रयोग डेक"
+  ],
+  "Vos laboratoires IA.": [
+    "AI experiment deck.",
+    "Laboratorios de IA.",
+    "AI实验室。",
+    "AI प्रयोगशालाएँ।"
+  ],
+  "Changez un paramètre. Observez la conséquence. Comprenez pourquoi.": [
+    "Change a parameter. Watch the consequence. Understand why.",
+    "Cambia un parámetro. Observa qué pasa. Entiende por qué.",
+    "改变一个参数，观察后果，理解原因。",
+    "सेटिंग बदलें। परिणाम देखें। कारण समझें।"
+  ],
+  "Quiz et révisions →": [
+    "Quizzes and review →",
+    "Cuestionarios y repaso →",
+    "测验与复习 →",
+    "प्रश्न और दोहराव →"
+  ],
+  "LEARNING BY DOING": [
+    "PRACTICE // RETRIEVAL",
+    "PRÁCTICA // RECUERDO",
+    "练习 // 主动回忆",
+    "अभ्यास // याद करें"
+  ],
+  "Ancrer les connaissances dans le réel.": [
+    "Turn knowledge into judgement.",
+    "Convierte conocimiento en criterio.",
+    "把知识变成判断力。",
+    "ज्ञान को निर्णय क्षमता बनाएँ।"
+  ],
+  "Un exercice métier et un quiz corrigé par étape. Aucun chronomètre : prenez le temps de comprendre.": [
+    "An applied exercise and a feedback quiz for each mission. No timer: take the time to understand.",
+    "Un ejercicio y un cuestionario por misión. Sin cronómetro: comprende a tu ritmo.",
+    "每项任务都有业务练习和带解释测验。不限时，重在理解。",
+    "हर मिशन में अभ्यास और समझाने वाला प्रश्न-सत्र। समय सीमा नहीं।"
+  ],
+  "Faire l’exercice": [
+    "Try the exercise",
+    "Hacer el ejercicio",
+    "开始练习",
+    "अभ्यास करें"
+  ],
+  "Tester mes acquis {score}": [
+    "Check my understanding {score}",
+    "Comprobar lo aprendido {score}",
+    "检查理解 {score}",
+    "अपनी समझ जाँचें {score}"
+  ],
+  "RÉVISION ACTIVE": [
+    "ACTIVE RECALL",
+    "RECUERDO ACTIVO",
+    "主动回忆",
+    "सक्रिय स्मरण"
+  ],
+  "Les concepts, côté mémoire.": [
+    "Recall before you reveal.",
+    "Recuerda antes de revelar.",
+    "先回忆，再揭晓。",
+    "पहले याद करें, फिर उत्तर देखें।"
+  ],
+  "Tirez une carte, expliquez le concept avec vos mots, puis révélez sa définition.": [
+    "Explain the concept in your own words before revealing the definition.",
+    "Explica el concepto con tus palabras antes de ver la definición.",
+    "先用自己的话解释概念，再查看定义。",
+    "परिभाषा देखने से पहले अपने शब्दों में समझाएँ।"
+  ],
+  "CARTE {n} / {total}": [
+    "CARD {n} / {total}",
+    "TARJETA {n} / {total}",
+    "卡片 {n} / {total}",
+    "कार्ड {n} / {total}"
+  ],
+  "Révéler la définition": [
+    "Reveal definition",
+    "Mostrar definición",
+    "显示定义",
+    "परिभाषा देखें"
+  ],
+  "Carte suivante →": [
+    "Next card →",
+    "Siguiente tarjeta →",
+    "下一张 →",
+    "अगला कार्ड →"
+  ],
+  "LE VOCABULAIRE, SIMPLEMENT": [
+    "DECODE THE VOCABULARY",
+    "DESCIFRA EL VOCABULARIO",
+    "解码术语",
+    "शब्दों को समझें"
+  ],
+  "Un concept. Une explication claire.": [
+    "One concept. A clear explanation.",
+    "Un concepto. Una explicación clara.",
+    "一个概念，一个清晰解释。",
+    "एक अवधारणा। स्पष्ट व्याख्या।"
+  ],
+  "Les notions essentielles pour parler d’IA avec confiance.": [
+    "Essential vocabulary for confident AI conversations.",
+    "Vocabulario esencial para hablar de IA con confianza.",
+    "自信讨论AI的关键术语。",
+    "AI पर आत्मविश्वास से बात करने के शब्द।"
+  ],
+  "Rechercher un terme…": [
+    "Search a term…",
+    "Buscar un término…",
+    "搜索术语…",
+    "शब्द खोजें…"
+  ],
+  "Aucun terme trouvé. Essayez un autre mot.": [
+    "No term found. Try another word.",
+    "Sin resultados. Prueba otra palabra.",
+    "没有找到，请换个词。",
+    "शब्द नहीं मिला। दूसरा आज़माएँ।"
+  ],
+  "POUR ALLER PLUS LOIN": [
+    "KNOWLEDGE ARCHIVE",
+    "ARCHIVO DE CONOCIMIENTO",
+    "知识档案",
+    "ज्ञान संग्रह"
+  ],
+  "Votre bibliothèque IA.": [
+    "Your AI knowledge archive.",
+    "Tu biblioteca de IA.",
+    "你的AI知识库。",
+    "आपका AI ज्ञान संग्रह।"
+  ],
+  "Exporter ma progression →": [
+    "Export my progress →",
+    "Exportar mi progreso →",
+    "导出进度 →",
+    "प्रगति निर्यात करें →"
+  ],
+  "Retrouvez les références, les fiches détaillées du training et des ressources pour continuer à apprendre.": [
+    "Explore original references, training notes and resources for deeper study.",
+    "Consulta referencias, notas originales y recursos para profundizar.",
+    "查看原始参考、培训资料和深入学习资源。",
+    "मूल संदर्भ, प्रशिक्षण नोट्स और आगे के संसाधन देखें।"
+  ],
+  "Consulter le glossaire →": [
+    "Open the glossary →",
+    "Abrir glosario →",
+    "打开术语表 →",
+    "शब्दावली खोलें →"
+  ],
+  "Quiz, exercices et cartes de révision →": [
+    "Quizzes, exercises and recall cards →",
+    "Cuestionarios, ejercicios y tarjetas →",
+    "测验、练习与回忆卡片 →",
+    "प्रश्न, अभ्यास और स्मरण कार्ड →"
+  ],
+  "Fondamentaux & prompting": [
+    "Foundations & prompting",
+    "Fundamentos y prompts",
+    "基础与提示词",
+    "आधार और प्रॉम्प्ट"
+  ],
+  "Apprendre à utiliser les assistants et à structurer ses consignes.": [
+    "Learn to use assistants and structure useful instructions.",
+    "Aprende a usar asistentes y estructurar instrucciones.",
+    "学习使用助手并组织有效指令。",
+    "सहायक और उपयोगी निर्देश लिखना सीखें।"
+  ],
+  "Concevoir & évaluer": [
+    "Design & evaluate",
+    "Diseñar y evaluar",
+    "设计与评估",
+    "डिज़ाइन और मूल्यांकन"
+  ],
+  "Des références pour le RAG, les évaluations et les solutions IA.": [
+    "References for RAG, evaluation and AI solution design.",
+    "Referencias de RAG, evaluación y diseño de IA.",
+    "RAG、评估与AI设计参考。",
+    "RAG, मूल्यांकन और AI डिज़ाइन के संदर्भ।"
+  ],
+  "Gouvernance & sécurité": [
+    "Governance & security",
+    "Gobernanza y seguridad",
+    "治理与安全",
+    "शासन और सुरक्षा"
+  ],
+  "Vérifiez les règles et les recommandations à la source.": [
+    "Check rules and recommendations at the official source.",
+    "Comprueba las normas en fuentes oficiales.",
+    "通过官方来源核查规则和建议。",
+    "आधिकारिक स्रोत पर नियम जाँचें।"
+  ],
+  "Agents & interopérabilité": [
+    "Agents & interoperability",
+    "Agentes e interoperabilidad",
+    "智能体与互操作",
+    "एजेंट और अंतरसंचालन"
+  ],
+  "Comprendre les outils, les connexions et les systèmes agentiques.": [
+    "Understand tools, connections and agentic systems.",
+    "Comprende herramientas, conexiones y agentes.",
+    "理解工具、连接与智能体系统。",
+    "टूल, कनेक्शन और एजेंट समझें।"
+  ],
+  "Les noms de produits, certifications, tarifs et calendriers réglementaires du support datent de son édition d’octobre 2026. Vérifiez les informations actuelles auprès des organismes officiels avant une décision.": [
+    "Product names, certifications, prices and regulatory timelines reflect the October 2026 source edition. Check current information with official organisations before making decisions.",
+    "Productos, certificaciones, precios y plazos corresponden al original de octubre de 2026. Verifica los datos actuales con organismos oficiales.",
+    "产品、认证、价格和法规时间表基于2026年10月原版。决策前请向官方机构核查现行信息。",
+    "उत्पाद, प्रमाणन, कीमतें और कानूनी समय अक्टूबर 2026 स्रोत के हैं। निर्णय से पहले आधिकारिक वर्तमान जानकारी जाँचें।"
+  ],
+  "Le support, chapitre par chapitre": [
+    "Original training reference",
+    "Referencia original",
+    "原始培训参考",
+    "मूल प्रशिक्षण संदर्भ"
+  ],
+  "Contenu original en anglais, organisé par étape. Les explications et activités du parcours sont en français.": [
+    "Original English source material. Lessons and activities are available in the selected language; external resources keep their original language.",
+    "Material original en inglés. Lecciones y actividades en el idioma elegido; las fuentes externas conservan su idioma.",
+    "原始参考为英语。课程和活动使用所选语言，外部资源保留原文语言。",
+    "मूल स्रोत अंग्रेज़ी में है। पाठ और गतिविधियाँ चुनी भाषा में; बाहरी संदर्भ अपनी मूल भाषा में हैं।"
+  ],
+  "Tout le support · 121 fiches →": [
+    "All source material · 121 notes →",
+    "Todo el material · 121 fichas →",
+    "全部原始资料 · 121篇 →",
+    "पूरा स्रोत · 121 नोट्स →"
+  ],
+  "Introduction & parcours →": [
+    "Introduction & journey →",
+    "Introducción y ruta →",
+    "介绍与路径 →",
+    "परिचय और यात्रा →"
+  ],
+  "Annexes & certifications →": [
+    "Appendices & certifications →",
+    "Anexos y certificaciones →",
+    "附录与认证 →",
+    "परिशिष्ट और प्रमाणन →"
+  ],
+  "Votre espace d’apprentissage": [
+    "Your learning space",
+    "Tu espacio de aprendizaje",
+    "你的学习空间",
+    "आपका अध्ययन स्थान"
+  ],
+  "Votre progression et vos notes sont enregistrées dans ce navigateur. Exportez-les pour en garder une copie. Aucun compte n’est nécessaire.": [
+    "Progress and exercise notes stay in this browser. Export them to keep a copy. No account is required.",
+    "Progreso y notas se guardan en este navegador. Expórtalos para conservar una copia. No necesitas cuenta.",
+    "进度和练习笔记保存在此浏览器。可导出备份，无需账号。",
+    "प्रगति और अभ्यास नोट्स इसी ब्राउज़र में हैं। प्रतिलिपि निर्यात करें। खाता जरूरी नहीं।"
+  ],
+  "Importer une progression": [
+    "Import progress",
+    "Importar progreso",
+    "导入进度",
+    "प्रगति आयात करें"
+  ],
+  "Réinitialiser ma progression": [
+    "Reset my progress",
+    "Reiniciar mi progreso",
+    "重置进度",
+    "प्रगति रीसेट करें"
+  ],
+  "Effacer les leçons terminées, les scores et les notes sur cet appareil ?": [
+    "Erase completed decisions, scores and notes on this device?",
+    "¿Borrar decisiones, notas y puntuaciones de este dispositivo?",
+    "删除此设备的已完成决策、分数和笔记？",
+    "इस उपकरण के निर्णय, अंक और नोट्स मिटाएँ?"
+  ],
+  "À VOUS DE JOUER": [
+    "YOUR TURN",
+    "TU TURNO",
+    "轮到你了",
+    "अब आपकी बारी"
+  ],
+  "Du concept au livrable métier.": [
+    "From concept to business deliverable.",
+    "Del concepto al entregable.",
+    "从概念到业务交付物。",
+    "अवधारणा से व्यावसायिक परिणाम।"
+  ],
+  "Votre réponse / vos notes": [
+    "Your answer / notes",
+    "Tu respuesta / notas",
+    "你的回答 / 笔记",
+    "आपका उत्तर / नोट्स"
+  ],
+  "Formulez votre réponse ici…": [
+    "Write your answer here…",
+    "Escribe tu respuesta…",
+    "在这里写下回答…",
+    "यहाँ उत्तर लिखें…"
+  ],
+  "Enregistrer mes notes": [
+    "Save my notes",
+    "Guardar notas",
+    "保存笔记",
+    "नोट्स सहेजें"
+  ],
+  "Voir les pistes de correction": [
+    "Explore the worked guidance",
+    "Ver orientaciones",
+    "查看参考思路",
+    "सुझाया तर्क देखें"
+  ],
+  "Trois questions pour vérifier votre compréhension. Les corrections expliquent chaque réponse.": [
+    "Three questions to check understanding. Each answer includes an explanation.",
+    "Tres preguntas con explicaciones para comprobar tu comprensión.",
+    "三个问题检查理解，每个答案都有解释。",
+    "तीन प्रश्नों से समझ जाँचें। हर उत्तर की व्याख्या है।"
+  ],
+  "Bien joué ! Vous maîtrisez les points clés.": [
+    "Nice work! You answered all three correctly.",
+    "¡Bien! Has acertado las tres.",
+    "做得好，三题都答对了。",
+    "अच्छा किया! तीनों उत्तर सही हैं।"
+  ],
+  "Continuez à explorer : chaque correction est une occasion d’apprendre.": [
+    "Keep exploring: feedback is another chance to learn.",
+    "Sigue explorando: cada explicación ayuda a aprender.",
+    "继续探索，每次纠正都是学习机会。",
+    "जारी रखें: हर feedback सीखने का अवसर है।"
+  ],
+  "Vérifier mes réponses": [
+    "Check my answers",
+    "Comprobar respuestas",
+    "检查答案",
+    "उत्तर जाँचें"
+  ],
+  "Recommencer le quiz": [
+    "Try the quiz again",
+    "Repetir cuestionario",
+    "重新测验",
+    "फिर प्रयास करें"
+  ],
+  "Fiches du support d’origine · anglais · liens de référence inclus.": [
+    "Original source notes · English · reference links included.",
+    "Notas originales · inglés · enlaces incluidos.",
+    "原始资料 · 英语 · 包含参考链接。",
+    "मूल नोट्स · अंग्रेज़ी · संदर्भ लिंक सहित।"
+  ],
+  "Un concept, une compétence ou une étape : par où commencer ?": [
+    "Search a concept, skill or mission.",
+    "Busca un concepto, habilidad o misión.",
+    "搜索概念、能力或任务。",
+    "अवधारणा, कौशल या मिशन खोजें।"
+  ],
+  "Aucun résultat. Essayez un terme plus général.": [
+    "No results. Try a broader term.",
+    "Sin resultados. Prueba algo más general.",
+    "没有结果，请尝试更宽泛的词。",
+    "नतीजा नहीं। व्यापक शब्द आज़माएँ।"
+  ],
+  "Glossaire": [
+    "Glossary",
+    "Glosario",
+    "术语表",
+    "शब्दावली"
+  ],
+  "Références": [
+    "References",
+    "Referencias",
+    "参考",
+    "संदर्भ"
+  ],
+  "Apprendre": [
+    "Learn",
+    "Aprender",
+    "学习",
+    "सीखें"
+  ],
+  "Quiz": [
+    "Quiz",
+    "Cuestionario",
+    "测验",
+    "प्रश्नावली"
+  ],
+  "Support détaillé · Fiche {n} · anglais": [
+    "Original source · Note {n} · English",
+    "Fuente original · Ficha {n} · inglés",
+    "原始资料 · 第{n}篇 · 英语",
+    "मूल स्रोत · नोट {n} · अंग्रेज़ी"
+  ],
+  "{stage} · Leçon": [
+    "{stage} · Lesson",
+    "{stage} · Lección",
+    "{stage} · 课程",
+    "{stage} · पाठ"
+  ],
+  "Voir le RAG fonctionner": [
+    "Watch RAG work",
+    "Ver cómo funciona RAG",
+    "观察RAG工作",
+    "RAG को काम करते देखें"
+  ],
+  "Construire un prompt utile": [
+    "Build a useful prompt",
+    "Construir un prompt útil",
+    "构建有效提示词",
+    "उपयोगी प्रॉम्प्ट बनाएँ"
+  ],
+  "Choisir le bon type de solution": [
+    "Choose a solution pattern",
+    "Elegir una solución",
+    "选择解决方案",
+    "समाधान का तरीका चुनें"
+  ],
+  "Assembler une exigence testable": [
+    "Assemble a testable requirement",
+    "Crear un requisito comprobable",
+    "组合可测试需求",
+    "परीक्षण योग्य आवश्यकता बनाएँ"
+  ],
+  "Tester les barrières de sécurité": [
+    "Test security boundaries",
+    "Probar barreras de seguridad",
+    "测试安全边界",
+    "सुरक्षा सीमाएँ परखें"
+  ],
+  "Calculer une valeur réaliste": [
+    "Calculate realistic value",
+    "Calcular valor realista",
+    "计算现实价值",
+    "वास्तविक मूल्य आँकें"
+  ],
+  "LANGUE": [
+    "LANGUAGE",
+    "IDIOMA",
+    "语言",
+    "भाषा"
+  ],
+  "Animations": [
+    "Motion",
+    "Animación",
+    "动画",
+    "एनीमेशन"
+  ],
+  "Réduire les animations": [
+    "Reduce motion",
+    "Reducir animación",
+    "减少动画",
+    "एनीमेशन कम करें"
+  ],
+  "Activer les animations": [
+    "Enable motion",
+    "Activar animación",
+    "开启动画",
+    "एनीमेशन चालू करें"
+  ],
+  "Vos notes sont enregistrées sur cet appareil.": [
+    "Notes saved on this device.",
+    "Notas guardadas en este dispositivo.",
+    "笔记已保存在此设备。",
+    "नोट्स इस उपकरण पर सहेजे गए।"
+  ],
+  "Répondez aux trois questions avant de vérifier.": [
+    "Answer all three questions first.",
+    "Responde primero a las tres preguntas.",
+    "请先回答全部三题。",
+    "पहले तीनों प्रश्नों के उत्तर दें।"
+  ],
+  "Le navigateur ne permet pas de sauvegarder la progression.": [
+    "This browser cannot save progress.",
+    "Este navegador no puede guardar el progreso.",
+    "此浏览器无法保存进度。",
+    "यह ब्राउज़र प्रगति नहीं सहेज सकता।"
+  ],
+  "Progression importée. Vous pouvez reprendre votre parcours.": [
+    "Progress imported. Ready to continue.",
+    "Progreso importado. Puedes continuar.",
+    "进度已导入，可以继续。",
+    "प्रगति आयात हुई। आगे बढ़ें।"
+  ],
+  "Ce fichier de progression est invalide. Utilisez un export du parcours.": [
+    "Invalid progress file. Use an exported learning-path file.",
+    "Archivo inválido. Usa una exportación del curso.",
+    "进度文件无效，请使用本课程导出的文件。",
+    "फ़ाइल मान्य नहीं। इसी यात्रा की निर्यात फ़ाइल लें।"
+  ],
+  "Votre parcours est prêt pour un nouveau départ.": [
+    "Your journey is ready for a fresh start.",
+    "Tu ruta está lista para volver a empezar.",
+    "学习路径已重置。",
+    "यात्रा नई शुरुआत के लिए तैयार है।"
+  ],
+  "LABORATOIRE INTERACTIF": [
+    "INTERACTIVE LAB",
+    "LABORATORIO INTERACTIVO",
+    "互动实验室",
+    "इंटरैक्टिव प्रयोगशाला"
+  ],
+  "Une question, trois sources et un accès utilisateur. Observez ce qui arrive au modèle quand vous changez les règles.": [
+    "One question, three sources, one user. Change the filters to inspect the evidence reaching the model.",
+    "Una pregunta, tres fuentes, un usuario. Cambia filtros y observa las pruebas disponibles.",
+    "一个问题、三个来源、一个用户。改变过滤条件，查看模型收到的证据。",
+    "एक प्रश्न, तीन स्रोत, एक उपयोगकर्ता। फ़िल्टर बदलकर मॉडल तक पहुँचते प्रमाण देखें।"
+  ],
+  "Composez un prompt de synthèse d’entretien. Le résultat se construit en direct ; aucun modèle IA n’est appelé.": [
+    "Build an interview-analysis prompt live. No AI model is called.",
+    "Construye un prompt de entrevista en directo, sin llamar a un modelo IA.",
+    "实时构建访谈分析提示词，不调用AI模型。",
+    "इंटरव्यू प्रॉम्प्ट बनाएँ। कोई AI मॉडल कॉल नहीं होता।"
+  ],
+  "Modifiez le besoin pour voir quel schéma de solution examiner en premier. Cette aide pédagogique ne remplace pas une étude de faisabilité.": [
+    "Change the need to explore a first solution pattern. This teaching aid does not replace a feasibility study.",
+    "Cambia la necesidad para explorar una solución. No sustituye un estudio de viabilidad.",
+    "改变需求探索初步方案，不能替代可行性研究。",
+    "जरूरत बदलकर शुरुआती तरीका देखें। यह व्यवहार्यता अध्ययन का विकल्प नहीं।"
+  ],
+  "Sélectionnez les éléments de votre exigence et observez les scénarios qu’elle permet de tester.": [
+    "Assemble a requirement and inspect the test cases it supports.",
+    "Construye un requisito y observa sus pruebas.",
+    "组合需求，查看可支持的测试案例。",
+    "आवश्यकता जोड़ें और उसके परीक्षण देखें।"
+  ],
+  "Testez une action risquée avec ou sans contrôles. Il s’agit d’une simulation déterministe, pas d’un audit de sécurité.": [
+    "Test risky scenarios with and without controls. A deterministic simulation, not a security audit.",
+    "Prueba riesgos con y sin controles. Simulación, no auditoría.",
+    "在有无控制时测试风险场景。这是确定性模拟，不是安全审计。",
+    "नियंत्रण के साथ और बिना जोखिम देखें। यह सिमुलेशन है, सुरक्षा ऑडिट नहीं।"
+  ],
+  "Faites varier volume, temps de revue et adoption : le gain brut peut devenir un bénéfice net faible ou négatif.": [
+    "Vary volume, review time and adoption. A gross saving can turn into a small or negative net benefit.",
+    "Varía volumen, revisión y adopción: el ahorro bruto puede volverse negativo.",
+    "调整工作量、审核时间和采用率。毛收益可能变成很少甚至负的净收益。",
+    "मात्रा, समीक्षा और अपनाना बदलें: सकल बचत शुद्ध नुकसान बन सकती है।"
+  ],
+  "Qui pose la question ?": [
+    "Who is asking?",
+    "¿Quién pregunta?",
+    "谁在提问？",
+    "प्रश्न कौन पूछ रहा है?"
+  ],
+  "Employé": [
+    "Employee",
+    "Empleado",
+    "员工",
+    "कर्मचारी"
+  ],
+  "Manager": [
+    "Manager",
+    "Responsable",
+    "管理者",
+    "प्रबंधक"
+  ],
+  "Exclure les versions obsolètes": [
+    "Exclude obsolete versions",
+    "Excluir versiones antiguas",
+    "排除旧版本",
+    "पुराने संस्करण हटाएँ"
+  ],
+  "Respecter les droits d’accès": [
+    "Enforce access rights",
+    "Respetar permisos",
+    "执行访问权限",
+    "पहुँच अधिकार लागू करें"
+  ],
+  "Transmettre les extraits au modèle": [
+    "Provide excerpts to the model",
+    "Proporcionar extractos al modelo",
+    "向模型提供片段",
+    "मॉडल को अंश दें"
+  ],
+  "Télétravail · 2023": [
+    "Remote work · 2023",
+    "Teletrabajo · 2023",
+    "远程工作 · 2023",
+    "दूरस्थ कार्य · 2023"
+  ],
+  "Télétravail · 2026": [
+    "Remote work · 2026",
+    "Teletrabajo · 2026",
+    "远程工作 · 2026",
+    "दूरस्थ कार्य · 2026"
+  ],
+  "Exception managers · 2026": [
+    "Manager exception · 2026",
+    "Excepción de responsables · 2026",
+    "管理者例外 · 2026",
+    "प्रबंधक अपवाद · 2026"
+  ],
+  "« Combien de jours de télétravail puis-je prendre ? »": [
+    "How many remote-work days can I take?",
+    "¿Cuántos días puedo teletrabajar?",
+    "我可以远程工作几天？",
+    "मैं कितने दिन दूरस्थ काम कर सकता हूँ?"
+  ],
+  "Sources → Filtres → Contexte → Réponse": [
+    "Sources → Filters → Context → Answer",
+    "Fuentes → Filtros → Contexto → Respuesta",
+    "来源 → 过滤 → 上下文 → 回答",
+    "स्रोत → फ़िल्टर → संदर्भ → उत्तर"
+  ],
+  "Accès managers": [
+    "Manager access",
+    "Acceso responsables",
+    "管理者权限",
+    "प्रबंधक पहुँच"
+  ],
+  "Accès employés": [
+    "Employee access",
+    "Acceso empleados",
+    "员工权限",
+    "कर्मचारी पहुँच"
+  ],
+  "· obsolète": [
+    "· obsolete",
+    "· obsoleto",
+    "· 已过时",
+    "· पुराना"
+  ],
+  "Conséquence": [
+    "Consequence",
+    "Consecuencia",
+    "后果",
+    "परिणाम"
+  ],
+  "Aucune source n’est fournie : une réponse métier ne peut pas être justifiée avec ce contexte. L’assistant devrait s’abstenir.": [
+    "No sources reach the model. A business answer cannot be justified: the assistant should abstain.",
+    "Sin fuentes no hay prueba suficiente; el asistente debería abstenerse.",
+    "模型没有收到来源，无法证明业务回答，应明确不作答。",
+    "स्रोत नहीं हैं। उत्तर का प्रमाण नहीं; सहायक को परहेज़ करना चाहिए।"
+  ],
+  "Fuite possible : une exception réservée aux managers entre dans le contexte d’un employé. Une bonne citation ne corrige pas ce problème.": [
+    "Possible leak: a manager-only exception enters an employee's context. Correct citation does not repair access failure.",
+    "Posible fuga: una excepción restringida llega al empleado. Citarla bien no corrige el acceso.",
+    "可能泄露：管理者专用例外进入员工上下文。正确引用不能修复权限问题。",
+    "लीक संभव: प्रबंधक जानकारी कर्मचारी संदर्भ में गई। सही उद्धरण अधिकार नहीं सुधारता।"
+  ],
+  "Contradiction : les versions 2023 et 2026 sont présentes. Le système doit identifier la version valide, pas les fusionner.": [
+    "Conflicting 2023 and 2026 versions are present. Identify the valid version rather than merging them.",
+    "Hay versiones 2023 y 2026 contradictorias. Identifica la vigente, no las mezcles.",
+    "2023与2026版本冲突。应识别现行版本，不应混合。",
+    "2023 और 2026 संस्करण विरोधी हैं। सही संस्करण चुनें, मिलाएँ नहीं।"
+  ],
+  "Deux sources autorisées : règle générale de 2 jours et exception de 3 jours sous conditions. Il faut vérifier l’éligibilité avant de conclure.": [
+    "Two authorised sources: a two-day rule and a conditional three-day exception. Check eligibility before concluding.",
+    "Dos fuentes autorizadas: dos días y excepción de tres. Comprueba la elegibilidad.",
+    "两个授权来源：一般两天、有条件例外三天。结论前核查适用资格。",
+    "दो अधिकृत स्रोत: दो दिन नियम और शर्त वाला तीन दिन अपवाद। पात्रता जाँचें।"
+  ],
+  "La source autorisée et à jour indique 2 jours par semaine. Le modèle dispose de la preuve adaptée ; il faut encore vérifier la fidélité de sa réponse.": [
+    "The authorised current source says two days weekly. Evidence is available; answer fidelity still needs checking.",
+    "La fuente vigente indica dos días. Hay pruebas, pero aún debes verificar la fidelidad.",
+    "授权现行来源为每周两天。已有适当证据，仍需检查生成回答是否忠实。",
+    "वर्तमान अधिकृत स्रोत दो दिन कहता है। प्रमाण है, फिर भी उत्तर की निष्ठा जाँचें।"
+  ],
+  "Documents et règles fictifs créés pour cet exercice.": [
+    "Fictional documents and rules for this exercise.",
+    "Documentos y reglas ficticios.",
+    "本练习使用虚构文档与规则。",
+    "इस अभ्यास के दस्तावेज़ और नियम काल्पनिक हैं।"
+  ],
+  "Livrable attendu": [
+    "Expected deliverable",
+    "Entregable esperado",
+    "预期交付物",
+    "अपेक्षित परिणाम"
+  ],
+  "Extraire les besoins métier de ces notes d’entretien": [
+    "Extract business needs from these interview notes",
+    "Extraer necesidades de estas notas",
+    "从访谈记录中提取业务需求",
+    "इन इंटरव्यू नोट्स से व्यावसायिक जरूरतें निकालें"
+  ],
+  "Format de sortie": [
+    "Output format",
+    "Formato de salida",
+    "输出格式",
+    "आउटपुट प्रारूप"
+  ],
+  "Tableau vérifiable": [
+    "Reviewable table",
+    "Tabla verificable",
+    "可审核表格",
+    "जाँचने योग्य तालिका"
+  ],
+  "Liste libre": [
+    "Free-form list",
+    "Lista libre",
+    "自由列表",
+    "खुली सूची"
+  ],
+  "Tableau : identifiant, besoin, preuve, question ouverte": [
+    "Table: ID, need, evidence, open question",
+    "Tabla: ID, necesidad, prueba, pregunta",
+    "表格：编号、需求、证据、开放问题",
+    "तालिका: ID, जरूरत, प्रमाण, खुला प्रश्न"
+  ],
+  "Exiger la provenance de chaque besoin": [
+    "Require evidence for every need",
+    "Exigir fuente de cada necesidad",
+    "每项需求标明来源",
+    "हर जरूरत का प्रमाण दें"
+  ],
+  "Interdire d’inventer les informations manquantes": [
+    "Do not invent missing information",
+    "No inventar información ausente",
+    "禁止编造缺失信息",
+    "गायब जानकारी न गढ़ें"
+  ],
+  "Distinguer faits, hypothèses et propositions": [
+    "Separate facts, assumptions and proposals",
+    "Separar hechos, supuestos y propuestas",
+    "区分事实、假设与建议",
+    "तथ्य, धारणाएँ और सुझाव अलग करें"
+  ],
+  "VOTRE PROMPT": [
+    "YOUR PROMPT",
+    "TU PROMPT",
+    "你的提示词",
+    "आपका प्रॉम्प्ट"
+  ],
+  "✓ Les trois garde-fous pédagogiques sont présents. Testez encore le prompt sur des cas représentatifs.": [
+    "✓ All three teaching safeguards are present. Still test the prompt on representative cases.",
+    "✓ Están los tres controles. Prueba también casos representativos.",
+    "✓ 三个学习控制均已加入，仍须在代表案例上测试。",
+    "✓ तीनों नियंत्रण हैं। प्रतिनिधि मामलों पर फिर भी परीक्षण करें।"
+  ],
+  "À renforcer : {items}.": [
+    "Strengthen: {items}.",
+    "Reforzar: {items}.",
+    "需要加强：{items}。",
+    "और मजबूत करें: {items}।"
+  ],
+  "la preuve": [
+    "evidence",
+    "pruebas",
+    "证据",
+    "प्रमाण"
+  ],
+  "la gestion des manques": [
+    "handling missing information",
+    "gestión de ausencias",
+    "缺失信息处理",
+    "गायब जानकारी का व्यवहार"
+  ],
+  "la séparation faits / hypothèses": [
+    "separating facts / assumptions",
+    "separación de hechos y supuestos",
+    "事实与假设分离",
+    "तथ्य और धारणाएँ अलग करना"
+  ],
+  "Copier le prompt": [
+    "Copy prompt",
+    "Copiar prompt",
+    "复制提示词",
+    "प्रॉम्प्ट कॉपी करें"
+  ],
+  "Prompt copié ✓": [
+    "Prompt copied ✓",
+    "Prompt copiado ✓",
+    "已复制 ✓",
+    "प्रॉम्प्ट कॉपी हुआ ✓"
+  ],
+  "Sélectionnez le texte pour le copier": [
+    "Select the text to copy it",
+    "Selecciona el texto para copiar",
+    "请选择文字复制",
+    "कॉपी करने के लिए टेक्स्ट चुनें"
+  ],
+  "Quel résultat attendez-vous ?": [
+    "What outcome do you need?",
+    "¿Qué resultado necesitas?",
+    "需要什么结果？",
+    "कौन-सा परिणाम चाहिए?"
+  ],
+  "Appliquer des règles stables": [
+    "Apply stable rules",
+    "Aplicar reglas estables",
+    "执行稳定规则",
+    "स्थिर नियम लागू करना"
+  ],
+  "Prédire un résultat à partir d’un historique": [
+    "Predict from historical data",
+    "Predecir con datos históricos",
+    "根据历史数据预测",
+    "पुराने डेटा से अनुमान"
+  ],
+  "Rédiger ou reformuler du contenu": [
+    "Draft or rewrite content",
+    "Redactar o reformular",
+    "起草或改写内容",
+    "सामग्री लिखना या बदलना"
+  ],
+  "Répondre à partir de documents internes": [
+    "Answer from internal documents",
+    "Responder con documentos internos",
+    "根据内部文档回答",
+    "आंतरिक दस्तावेज़ से उत्तर"
+  ],
+  "Exécuter des actions dans un système": [
+    "Perform actions in a system",
+    "Ejecutar acciones en un sistema",
+    "在系统中执行操作",
+    "सिस्टम में कार्रवाई"
+  ],
+  "Les données nécessaires sont disponibles et autorisées": [
+    "Required data is available and authorised",
+    "Datos disponibles y autorizados",
+    "必要数据可用且已授权",
+    "जरूरी डेटा उपलब्ध और अधिकृत है"
+  ],
+  "Les étapes d’action doivent s’adapter au contexte": [
+    "Action steps must adapt to context",
+    "Las acciones deben adaptarse al contexto",
+    "行动步骤须适应上下文",
+    "कार्रवाई संदर्भ अनुसार बदले"
+  ],
+  "Règles / automatisation": [
+    "Rules / automation",
+    "Reglas / automatización",
+    "规则 / 自动化",
+    "नियम / ऑटोमेशन"
+  ],
+  "Les règles sont explicites. Spécifiez les exceptions et la gestion des erreurs.": [
+    "Rules are explicit. Specify exceptions and error handling.",
+    "Reglas explícitas: define excepciones y errores.",
+    "规则已明确，需定义例外和错误处理。",
+    "नियम स्पष्ट हैं। अपवाद और त्रुटियाँ तय करें।"
+  ],
+  "Modèle prédictif": [
+    "Predictive model",
+    "Modelo predictivo",
+    "预测模型",
+    "अनुमान मॉडल"
+  ],
+  "Vérifiez l’historique, les étiquettes, les seuils et les performances sur de nouvelles données.": [
+    "Check history, labels, thresholds and performance on new data.",
+    "Comprueba historial, etiquetas, umbrales y datos nuevos.",
+    "检查历史、标签、门槛及新数据表现。",
+    "इतिहास, लेबल, सीमा और नए डेटा का प्रदर्शन जाँचें।"
+  ],
+  "Prompt + revue humaine": [
+    "Prompt + human review",
+    "Prompt + revisión humana",
+    "提示词 + 人工审核",
+    "प्रॉम्प्ट + मानव समीक्षा"
+  ],
+  "Commencez par des consignes claires ; mesurez la fidélité et le temps de correction.": [
+    "Start with clear instructions; measure fidelity and correction time.",
+    "Instrucciones claras; mide fidelidad y revisión.",
+    "先明确指令，再衡量忠实度与修改时间。",
+    "स्पष्ट निर्देश दें; निष्ठा और सुधार समय मापें।"
+  ],
+  "Recherche + RAG": [
+    "Retrieval + RAG",
+    "Búsqueda + RAG",
+    "检索 + RAG",
+    "खोज + RAG"
+  ],
+  "Préparez les sources, les droits, les versions, les citations et l’abstention.": [
+    "Prepare sources, rights, versions, citations and abstention.",
+    "Prepara fuentes, permisos, versiones, citas y abstención.",
+    "准备来源、权限、版本、引用和不作答行为。",
+    "स्रोत, अधिकार, संस्करण, उद्धरण और परहेज़ तय करें।"
+  ],
+  "Agent borné, à étudier": [
+    "Bounded agent, to investigate",
+    "Agente limitado, por estudiar",
+    "待评估的受限智能体",
+    "सीमित एजेंट, जाँच जरूरी"
+  ],
+  "L’adaptation peut justifier des décisions dynamiques. Définissez outils, validations, arrêt et supervision.": [
+    "Adaptation may justify dynamic decisions. Define tools, approvals, stopping and oversight.",
+    "La adaptación puede justificar decisiones dinámicas. Define límites y supervisión.",
+    "自适应可能需要动态决策，仍须定义工具、批准、停止与监督。",
+    "बदलते निर्णय जरूरी हो सकते हैं। टूल, स्वीकृति, रोक और निगरानी तय करें।"
+  ],
+  "Workflow avec outils": [
+    "Workflow with tools",
+    "Flujo con herramientas",
+    "带工具的工作流",
+    "टूल वाला वर्कफ़्लो"
+  ],
+  "Les étapes connues peuvent être enchaînées explicitement. Contrôlez chaque action et les nouveaux essais.": [
+    "Known steps can be sequenced explicitly. Control actions and retries.",
+    "Encadena pasos conocidos y controla acciones y reintentos.",
+    "明确编排已知步骤，控制操作与重试。",
+    "ज्ञात चरण क्रम में रखें। कार्रवाई और दोबारा प्रयास नियंत्रित करें।"
+  ],
+  "PREMIÈRE PISTE À EXAMINER": [
+    "FIRST PATTERN TO INVESTIGATE",
+    "PRIMERA OPCIÓN A ESTUDIAR",
+    "首先评估的方案",
+    "पहला जाँचने योग्य तरीका"
+  ],
+  "Préparer les prérequis": [
+    "Prepare prerequisites",
+    "Preparar requisitos previos",
+    "准备前提条件",
+    "पहले तैयारी करें"
+  ],
+  "Sans données utilisables et autorisées, le pilote n’est pas prêt. Clarifiez la propriété, la qualité et les droits avant de choisir un outil.": [
+    "Without usable, authorised data, the pilot is not ready. Clarify ownership, quality and rights first.",
+    "Sin datos útiles y autorizados no hay preparación. Aclara propiedad, calidad y permisos.",
+    "没有可用授权数据就未准备好，先明确所有权、质量和权限。",
+    "उपयोगी अधिकृत डेटा बिना पायलट तैयार नहीं। मालिक, गुणवत्ता और अधिकार स्पष्ट करें।"
+  ],
+  "Question à poser ensuite": [
+    "Ask next",
+    "Pregunta siguiente",
+    "下一问题",
+    "अगला प्रश्न"
+  ],
+  "Quel résultat mesurable ferait accepter ou refuser le pilote ?": [
+    "Which measurable outcome would pass or fail the pilot?",
+    "¿Qué resultado medible acepta o rechaza el piloto?",
+    "哪些可测结果决定试点通过或失败？",
+    "कौन-सा मापने योग्य परिणाम पायलट पास या फेल करेगा?"
+  ],
+  "Qui peut rendre les données disponibles légalement et dans quel délai ?": [
+    "Who can lawfully provide the data, and when?",
+    "¿Quién puede facilitar los datos legalmente y cuándo?",
+    "谁能合法提供数据，何时提供？",
+    "डेटा कानूनी रूप से कौन और कब दे सकता है?"
+  ],
+  "Une piste n’est pas une prescription : vérifiez valeur, contraintes, coûts et risque avec l’équipe.": [
+    "A suggestion is not a prescription. Check value, constraints, costs and risk.",
+    "Una opción no es una receta: revisa valor, restricciones, costes y riesgo.",
+    "建议不是最终指定方案，需核查价值、约束、成本与风险。",
+    "सुझाव अंतिम आदेश नहीं। मूल्य, सीमा, लागत और जोखिम जाँचें।"
+  ],
+  "Chaque affirmation cite une source autorisée": [
+    "Every claim cites an authorised source",
+    "Cada afirmación cita una fuente autorizada",
+    "每项结论引用授权来源",
+    "हर दावा अधिकृत स्रोत दे"
+  ],
+  "Le système s’abstient si la preuve manque": [
+    "Abstain when evidence is missing",
+    "Abstenerse si faltan pruebas",
+    "缺少证据时不作答",
+    "प्रमाण नहीं तो उत्तर से परहेज़"
+  ],
+  "Une source interdite n’est jamais transmise": [
+    "Never transmit a forbidden source",
+    "No transmitir fuentes prohibidas",
+    "绝不传输禁止访问的来源",
+    "निषिद्ध स्रोत न भेजें"
+  ],
+  "Les sources contradictoires sont signalées": [
+    "Flag conflicting sources",
+    "Señalar fuentes contradictorias",
+    "指出来源冲突",
+    "विरोधी स्रोत दिखाएँ"
+  ],
+  "Question documentée": [
+    "Documented question",
+    "Pregunta documentada",
+    "有文档支持的问题",
+    "दस्तावेज़ वाला प्रश्न"
+  ],
+  "La réponse cite la politique en vigueur et la citation soutient l’affirmation.": [
+    "Cite the current policy and verify that it supports the claim.",
+    "Cita la política vigente que respalda la afirmación.",
+    "引用现行政策且引用确实支持结论。",
+    "वर्तमान नीति उद्धृत हो और दावा समर्थित हो।"
+  ],
+  "Réponse introuvable": [
+    "No answer found",
+    "Respuesta no encontrada",
+    "找不到答案",
+    "उत्तर नहीं मिला"
+  ],
+  "Le système indique ne pas disposer de preuve suffisante et propose une escalade.": [
+    "State insufficient evidence and offer escalation.",
+    "Indica falta de pruebas y propone escalado.",
+    "说明证据不足并提供升级处理。",
+    "पर्याप्त प्रमाण नहीं बताएँ और एस्केलेशन दें।"
+  ],
+  "Accès interdit": [
+    "Access denied",
+    "Acceso denegado",
+    "拒绝访问",
+    "पहुँच अस्वीकृत"
+  ],
+  "Aucun extrait ni détail de la source interdite n’arrive dans le contexte ou la réponse.": [
+    "No restricted excerpt or detail reaches context or output.",
+    "Ningún dato restringido llega al contexto o salida.",
+    "禁止来源的片段或细节不进入上下文或回答。",
+    "निषिद्ध अंश संदर्भ या उत्तर में न जाए।"
+  ],
+  "Versions contradictoires": [
+    "Conflicting versions",
+    "Versiones contradictorias",
+    "版本冲突",
+    "विरोधी संस्करण"
+  ],
+  "Le conflit est signalé avec les sources, sans inventer de compromis.": [
+    "Expose the conflict and sources without inventing a compromise.",
+    "Muestra conflicto y fuentes sin inventar compromiso.",
+    "呈现冲突及来源，不编造折中。",
+    "विरोध और स्रोत दिखाएँ; समझौता न गढ़ें।"
+  ],
+  "COUVERTURE DU MINI PLAN DE TEST": [
+    "TEST-PLAN COVERAGE",
+    "COBERTURA DE PRUEBAS",
+    "测试计划覆盖",
+    "परीक्षण योजना कवरेज"
+  ],
+  "{n} / 4 comportements spécifiés": [
+    "{n} / 4 behaviours specified",
+    "{n} / 4 conductas definidas",
+    "已定义 {n} / 4 项行为",
+    "{n} / 4 व्यवहार तय"
+  ],
+  "Comportement non spécifié. Le test ne peut pas encore conclure à une acceptation.": [
+    "Behaviour unspecified: acceptance cannot yet be established.",
+    "Sin conducta definida no puede aceptarse.",
+    "行为未定义，尚无法确定通过。",
+    "व्यवहार तय नहीं; स्वीकृति नहीं दी जा सकती।"
+  ],
+  "Ces quatre cas sont un point de départ : ajoutez les métriques et scénarios propres à votre usage.": [
+    "A starting point: add metrics and scenarios specific to your use case.",
+    "Añade métricas y casos específicos de tu uso.",
+    "这些只是起点，需加入实际用例的指标与场景。",
+    "यह शुरुआत है; अपने उपयोग के माप और मामले जोड़ें।"
+  ],
+  "Scénario": [
+    "Scenario",
+    "Escenario",
+    "场景",
+    "परिदृश्य"
+  ],
+  "Un document ordonne d’exporter les clients": [
+    "A document orders a customer export",
+    "Un documento ordena exportar clientes",
+    "文档要求导出客户",
+    "दस्तावेज़ ग्राहक निर्यात कहता है"
+  ],
+  "Un utilisateur demande une donnée RH restreinte": [
+    "A user requests restricted HR data",
+    "Un usuario pide datos de RR. HH. restringidos",
+    "用户请求受限人事数据",
+    "उपयोगकर्ता प्रतिबंधित HR डेटा माँगता है"
+  ],
+  "Une action financière est proposée": [
+    "A financial action is proposed",
+    "Se propone una acción financiera",
+    "建议执行财务操作",
+    "वित्तीय कार्रवाई प्रस्तावित है"
+  ],
+  "Séparer instructions et contenu non fiable": [
+    "Separate instructions from untrusted content",
+    "Separar instrucciones de contenido no fiable",
+    "分离指令与不可信内容",
+    "निर्देश और अविश्वसनीय डेटा अलग करें"
+  ],
+  "Appliquer des droits minimaux côté outils / données": [
+    "Apply least privilege to tools and data",
+    "Aplicar mínimos permisos",
+    "对工具和数据实行最小权限",
+    "टूल और डेटा के न्यूनतम अधिकार"
+  ],
+  "Exiger une approbation pour les actions sensibles": [
+    "Require approval for sensitive actions",
+    "Exigir aprobación de acciones sensibles",
+    "敏感操作须批准",
+    "संवेदनशील काम की स्वीकृति"
+  ],
+  "Tracer les décisions et prévoir une escalade": [
+    "Log decisions and define escalation",
+    "Registrar decisiones y escalado",
+    "记录决策并定义升级",
+    "निर्णय लॉग और एस्केलेशन"
+  ],
+  "RÉSULTAT DU SCÉNARIO PÉDAGOGIQUE": [
+    "SIMULATED OUTCOME",
+    "RESULTADO SIMULADO",
+    "模拟结果",
+    "सिमुलेशन परिणाम"
+  ],
+  "◇ Barrière prévue": [
+    "◇ Boundary defined",
+    "◇ Barrera prevista",
+    "◇ 已设计边界",
+    "◇ सीमा तय"
+  ],
+  "! Exposition non maîtrisée": [
+    "! Uncontrolled exposure",
+    "! Exposición sin controlar",
+    "! 暴露未受控",
+    "! अनियंत्रित खुलासा"
+  ],
+  "Le document ne peut pas remplacer les règles. Il faut aussi restreindre les outils pour limiter les conséquences d’un contournement.": [
+    "Document content cannot override rules. Also restrict tools to limit the impact of bypasses.",
+    "El documento no reemplaza reglas. Limita también las herramientas.",
+    "文档不能替换规则，同时限制工具以减轻绕过的影响。",
+    "दस्तावेज़ नियम नहीं बदल सकता। टूल भी सीमित करें।"
+  ],
+  "Le texte récupéré peut être interprété comme une consigne. Il faut séparer son contenu des instructions autorisées.": [
+    "Retrieved text may be treated as instructions. Separate it from authorised rules.",
+    "Separa texto recuperado e instrucciones autorizadas.",
+    "检索内容可能被当成指令，须与授权规则分离。",
+    "खोजा टेक्स्ट निर्देश बन सकता है; अधिकृत नियमों से अलग रखें।"
+  ],
+  "La source doit être filtrée selon l’identité avant sa transmission au modèle. Testez les accès entre rôles.": [
+    "Filter sources by identity before model access. Test across roles.",
+    "Filtra por identidad antes del modelo y prueba roles.",
+    "送入模型前按身份过滤，执行跨角色测试。",
+    "मॉडल से पहले पहचान अनुसार फ़िल्टर करें; रोल जाँचें।"
+  ],
+  "La source peut être lue sans filtre d’accès adapté. Un avertissement dans la réponse ne suffit pas.": [
+    "The source lacks an adequate access filter. An output warning is not enough.",
+    "Falta filtro de acceso; una advertencia no basta.",
+    "缺乏访问过滤，输出警告并不足够。",
+    "पहुँच फ़िल्टर नहीं है। चेतावनी पर्याप्त नहीं।"
+  ],
+  "L’action attend une approbation humaine. Le contrôle doit intervenir avant l’exécution réelle.": [
+    "The action waits for human approval before real execution.",
+    "La acción espera aprobación antes de ejecutarse.",
+    "实际执行前等待人工批准。",
+    "असली कार्रवाई से पहले मानव स्वीकृति चाहिए।"
+  ],
+  "Une action sensible pourrait partir sans validation. Ajoutez un point de décision humain adapté au risque.": [
+    "A sensitive action could execute without approval. Add an appropriate human decision point.",
+    "La acción puede salir sin validar. Añade aprobación adecuada.",
+    "敏感操作可能未经批准执行，需增加适当人工决策点。",
+    "संवेदनशील काम बिना मंजूरी हो सकता है; उचित मानव निर्णय जोड़ें।"
+  ],
+  "La traçabilité aide à détecter, comprendre et traiter les incidents ; elle ne prévient pas seule l’action.": [
+    "Logs help detect and investigate incidents; they do not prevent actions alone.",
+    "Los registros ayudan a investigar, no previenen por sí solos.",
+    "日志帮助发现与调查事件，但不能单独阻止操作。",
+    "लॉग घटना समझने में मदद करते हैं; अकेले रोकते नहीं।"
+  ],
+  "Sans trace ni escalade, un incident est plus difficile à détecter et à traiter.": [
+    "Without logs and escalation, incidents are harder to detect and handle.",
+    "Sin registros y escalado cuesta detectar y tratar incidentes.",
+    "没有日志和升级，事件更难发现与处理。",
+    "लॉग और एस्केलेशन बिना घटना पहचानना कठिन है।"
+  ],
+  "Une case cochée représente un contrôle à concevoir et tester. Elle ne prouve pas la sécurité d’un système réel.": [
+    "A checked box represents a control to implement and test, not proof of real-world security.",
+    "Marcar una casilla no demuestra seguridad: hay que implementar y probar.",
+    "勾选代表待实施与测试的控制，不是真实安全证明。",
+    "चेकबॉक्स लागू और जाँचे जाने वाला नियंत्रण है, सुरक्षा प्रमाण नहीं।"
+  ],
+  "Tâches / mois": [
+    "Tasks / month",
+    "Tareas / mes",
+    "任务数 / 月",
+    "कार्य / महीना"
+  ],
+  "Minutes économisées avant revue": [
+    "Minutes saved before review",
+    "Minutos ahorrados antes de revisión",
+    "审核前节省分钟",
+    "समीक्षा से पहले बचे मिनट"
+  ],
+  "Minutes de revue ajoutées": [
+    "Extra review minutes",
+    "Minutos añadidos de revisión",
+    "新增审核分钟",
+    "अतिरिक्त समीक्षा मिनट"
+  ],
+  "Adoption réelle (%)": [
+    "Actual adoption (%)",
+    "Adopción real (%)",
+    "实际采用率 (%)",
+    "वास्तविक अपनाना (%)"
+  ],
+  "Coût mensuel de fonctionnement (€)": [
+    "Monthly operating cost (€)",
+    "Coste mensual (€)",
+    "每月运营成本 (€)",
+    "मासिक संचालन लागत (€)"
+  ],
+  "Coût horaire du travail (€)": [
+    "Hourly labour cost (€)",
+    "Coste por hora (€)",
+    "每小时人工成本 (€)",
+    "प्रति घंटा श्रम लागत (€)"
+  ],
+  "ESTIMATION MENSUELLE": [
+    "MONTHLY ESTIMATE",
+    "ESTIMACIÓN MENSUAL",
+    "每月估算",
+    "मासिक अनुमान"
+  ],
+  "Valeur du temps net, après fonctionnement": [
+    "Net time value after operating costs",
+    "Valor del tiempo neto tras costes",
+    "扣除运营后的净时间价值",
+    "संचालन के बाद शुद्ध समय मूल्य"
+  ],
+  "{hours} heures libérées / mois": [
+    "{hours} hours freed / month",
+    "{hours} horas liberadas / mes",
+    "每月释放 {hours} 小时",
+    "महीने में {hours} घंटे बचे"
+  ],
+  "{hours} heures ajoutées en charge / mois": [
+    "{hours} extra work hours / month",
+    "{hours} horas adicionales / mes",
+    "每月新增 {hours} 小时工作",
+    "महीने में {hours} अतिरिक्त घंटे"
+  ],
+  "{n} tâches × ({saved} − {review}) min × {adoption} % ÷ 60 × {rate} €/h − {cost} €": [
+    "{n} tasks × ({saved} − {review}) min × {adoption} % ÷ 60 × {rate} €/h − {cost} €",
+    "{n} tareas × ({saved} − {review}) min × {adoption} % ÷ 60 × {rate} €/h − {cost} €",
+    "{n}项任务 × ({saved} − {review})分钟 × {adoption} % ÷ 60 × {rate}欧元/小时 − {cost}欧元",
+    "{n} कार्य × ({saved} − {review}) मिनट × {adoption} % ÷ 60 × {rate} €/h − {cost} €"
+  ],
+  "Hypothèse simplifiée, hors coûts initiaux, formation et conduite du changement. Du temps libéré ne se convertit pas automatiquement en économie financière.": [
+    "Simplified estimate excluding setup, training and change costs. Freed time is not automatically cash savings.",
+    "Estimación sin implantación, formación ni cambio. Tiempo libre no equivale automáticamente a dinero ahorrado.",
+    "简化估计不含启动、培训与变更成本。释放时间不自动等于财务节约。",
+    "सरल अनुमान; शुरुआत, प्रशिक्षण और बदलाव लागत अलग। खाली समय अपने-आप नकद बचत नहीं।"
+  ],
+  "Tu aides un Business Analyst.": [
+    "You assist a Business Analyst.",
+    "Ayudas a un Business Analyst.",
+    "你协助业务分析师。",
+    "आप Business Analyst की मदद करते हैं।"
+  ],
+  "Tâche :": [
+    "Task:",
+    "Tarea:",
+    "任务：",
+    "काम:"
+  ],
+  "Sources : uniquement les notes anonymisées fournies ci-dessous.": [
+    "Sources: only the anonymised notes below.",
+    "Fuentes: solo las notas anonimizadas siguientes.",
+    "来源：仅使用下方匿名记录。",
+    "स्रोत: केवल नीचे दिए अज्ञात पहचान वाले नोट्स।"
+  ],
+  "Format :": [
+    "Format:",
+    "Formato:",
+    "格式：",
+    "प्रारूप:"
+  ],
+  "Pour chaque besoin, indique le passage source.": [
+    "For every need, identify the supporting passage.",
+    "Para cada necesidad, indica el pasaje fuente.",
+    "每项需求注明支持片段。",
+    "हर जरूरत का स्रोत अंश दें।"
+  ],
+  "N’invente aucun fait ni critère. Signale ce qui manque et pose une question.": [
+    "Do not invent facts or criteria. Flag missing inputs and ask a question.",
+    "No inventes hechos ni criterios. Indica carencias y pregunta.",
+    "不编造事实或标准，指出缺失并提问。",
+    "तथ्य या मानदंड न गढ़ें। कमी बताएँ और प्रश्न पूछें।"
+  ],
+  "Sépare les faits, les hypothèses et les propositions à valider.": [
+    "Separate facts, assumptions and proposals for validation.",
+    "Separa hechos, supuestos y propuestas por validar.",
+    "区分事实、假设与待验证建议。",
+    "तथ्य, धारणाएँ और मंजूरी वाले सुझाव अलग रखें।"
+  ],
+  "Notes : [insérer ici les notes autorisées]": [
+    "Notes: [insert authorised notes here]",
+    "Notas: [inserta notas autorizadas]",
+    "记录：[在此插入授权记录]",
+    "नोट्स: [अधिकृत नोट्स यहाँ डालें]"
+  ],
+  "[préciser la tâche]": [
+    "[specify the task]",
+    "[define la tarea]",
+    "[明确任务]",
+    "[काम बताएँ]"
+  ],
+  "NEURAL LINK": [
+    "NEURAL LINK",
+    "ENLACE NEURONAL",
+    "神经链路",
+    "न्यूरल लिंक"
+  ],
+  "ONLINE": [
+    "ONLINE",
+    "EN LÍNEA",
+    "在线",
+    "ऑनलाइन"
+  ],
+  "LEARN": [
+    "LEARN",
+    "APRENDE",
+    "学习",
+    "सीखें"
+  ],
+  "TEST": [
+    "TEST",
+    "PRUEBA",
+    "测试",
+    "परखें"
+  ],
+  "RETAIN": [
+    "RETAIN",
+    "RECUERDA",
+    "巩固",
+    "याद रखें"
+  ],
+  "Tout le support": [
+    "All source material",
+    "Todo el material",
+    "全部原始资料",
+    "पूरा स्रोत"
+  ],
+  "Introduction & parcours": [
+    "Introduction & journey",
+    "Introducción y ruta",
+    "介绍与路径",
+    "परिचय और यात्रा"
+  ],
+  "Annexes & certifications": [
+    "Appendices & certifications",
+    "Anexos y certificaciones",
+    "附录与认证",
+    "परिशिष्ट और प्रमाणन"
+  ],
+  "Fiche {n}": [
+    "Source note {n}",
+    "Ficha {n}",
+    "原始资料 {n}",
+    "स्रोत नोट {n}"
+  ],
+  "Chargement des fiches… Fermez puis rouvrez ce module si nécessaire.": [
+    "Loading source notes… Close and reopen this module if needed.",
+    "Cargando notas… Vuelve a abrir si es necesario.",
+    "正在加载原始资料，必要时请重新打开。",
+    "नोट्स लोड हो रहे हैं। जरूरत पर दोबारा खोलें।"
+  ],
+  "Le support détaillé est indisponible. Rechargez la page.": [
+    "Source material is unavailable. Please reload.",
+    "El material no está disponible. Recarga.",
+    "原始资料不可用，请刷新。",
+    "स्रोत उपलब्ध नहीं। पेज फिर लोड करें।"
+  ],
+  "Notes et scores importés. Les nouvelles décisions restent à parcourir.": [
+    "Notes and scores imported. New decisions still need to be completed.",
+    "Notas y puntuaciones importadas. Completa las nuevas decisiones.",
+    "笔记和分数已导入，新决策仍需完成。",
+    "नोट्स और अंक आयात हुए। नए निर्णय अभी बाकी हैं।"
+  ],
+  "Séquence courte · lecture, décision, expérimentation": [
+    "Short sequence · learn, decide, experiment",
+    "Secuencia breve · aprende, decide, experimenta",
+    "短单元 · 学习、决策、实验",
+    "छोटा चरण · सीखें, निर्णय, प्रयोग"
+  ],
+  "obsolète": [
+    "obsolete",
+    "obsoleto",
+    "已过时",
+    "पुराना"
+  ],
+  "Commission européenne — AI Act": [
+    "European Commission — AI Act",
+    "Comisión Europea — AI Act",
+    "欧盟委员会 — AI Act",
+    "यूरोपीय आयोग — AI Act"
+  ],
+  "QUESTION": [
+    "QUESTION",
+    "PREGUNTA",
+    "问题",
+    "प्रश्न"
+  ],
+  "BIBLIOTHÈQUE": [
+    "KNOWLEDGE ARCHIVE",
+    "ARCHIVO",
+    "知识档案",
+    "ज्ञान संग्रह"
+  ],
+  "SUPPORT DÉTAILLÉ": [
+    "ORIGINAL REFERENCE",
+    "REFERENCIA ORIGINAL",
+    "原始参考",
+    "मूल संदर्भ"
+  ],
+  "◷ {hours}": [
+    "◷ {hours}",
+    "◷ {hours}",
+    "◷ {hours}",
+    "◷ {hours}"
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "stages": [
+    {
+      "name": "Comprender",
+      "description": "Entender la IA, sus capacidades y sus límites.",
+      "outcome": "Explicar los conceptos y distinguir un modelo de una solución.",
+      "exercise": "Clasifica cuatro necesidades: calcular el IVA, predecir bajas de clientes, resumir un contrato y responder sobre políticas internas. Justifica la solución.",
+      "check": "El IVA requiere reglas; las bajas, predicción; el resumen, generación con revisión; las políticas, fuentes autorizadas y actuales.",
+      "lessons": [
+        [
+          "La IA no es una sola cosa",
+          "La automatización sigue reglas explícitas. El aprendizaje automático aprende patrones de los datos. La IA generativa crea contenido a partir de instrucciones y contexto. Un modelo de lenguaje grande, o LLM, es un tipo de IA, no todo el campo.",
+          "Usa reglas para umbrales fijos de facturas, predicción para riesgos de retraso y generación para redactar un resumen de incidencias."
+        ],
+        [
+          "Cómo funciona un modelo de lenguaje",
+          "Durante el entrenamiento, el modelo aprende patrones. Al responder, genera tokens sucesivos utilizando instrucciones, mensajes, documentos y resultados de herramientas disponibles. La ventana de contexto es limitada. Una respuesta fluida puede ser incorrecta.",
+          "Separa hechos, supuestos y preguntas abiertas en un acta. Comprueba cada hecho con las notas originales."
+        ],
+        [
+          "RAG: responder con pruebas",
+          "La generación aumentada por recuperación busca fragmentos pertinentes en fuentes autorizadas y los proporciona al modelo. Importan la preparación documental, los metadatos, los permisos y la búsqueda. El RAG reduce algunos riesgos, pero no garantiza la exactitud.",
+          "Un asistente de políticas debe citar la versión vigente, respetar los accesos y reconocer la falta de pruebas."
+        ],
+        [
+          "Cuatro formas de aprender",
+          "El aprendizaje supervisado utiliza respuestas conocidas. El no supervisado descubre grupos sin etiquetas previas. El autosupervisado aprende de la estructura de los propios datos. El aprendizaje por refuerzo utiliza recompensas para aprender acciones. Estos paradigmas no son arquitecturas.",
+          "Para clasificar reclamaciones, identifica quién asigna las etiquetas y cómo comprueba su calidad."
+        ],
+        [
+          "Capacidad, modalidad y modelo",
+          "La capacidad es la tarea: predecir, clasificar, detectar, generar, recuperar o actuar. La modalidad es el tipo de entrada: texto, imagen, audio o datos estructurados. Árboles, redes de visión, transformers y difusión son familias técnicas. Una solución puede combinarlas.",
+          "Una factura escaneada puede requerir reconocimiento de caracteres, extracción de campos, reglas de validación y revisión humana."
+        ],
+        [
+          "La calidad del dato precede a la respuesta",
+          "Los datos incorrectos, incompletos, contradictorios, antiguos, duplicados o poco representativos pueden producir errores convincentes. La búsqueda léxica compara palabras; la vectorial, significado. La híbrida combina ambas y el reranking reordena resultados. Ninguna vuelve fiable una fuente falsa.",
+          "Utiliza versiones, fechas de validez y permisos para recuperar la política aplicable, no solo la más parecida."
+        ]
+      ]
+    },
+    {
+      "name": "Utilizar",
+      "description": "Mejorar los prompts y revisar los resultados con criterio.",
+      "outcome": "Crear entregables de análisis trazables y revisables.",
+      "exercise": "Diseña un prompt para convertir notas de entrevista en necesidades. Incluye contexto, formato, pruebas y tratamiento de la información ausente.",
+      "check": "El prompt define el entregable, limita las fuentes, separa hechos y supuestos y solicita aclaraciones en vez de inventar datos.",
+      "lessons": [
+        [
+          "Dar dirección al prompt",
+          "Especifica tarea, público, contexto, fuentes, restricciones y formato. Añade un ejemplo útil y pide señalar las carencias. Unas buenas instrucciones ayudan, pero el resultado sigue necesitando revisión.",
+          "Solicita una tabla con identificador, necesidad, fuente y pregunta abierta. Prohíbe inventar criterios de aceptación."
+        ],
+        [
+          "Usar los datos con seguridad",
+          "Trabaja en un entorno aprobado. Los datos públicos, internos y personales requieren tratamientos distintos. Minimiza los datos enviados y comprueba los permisos. Escribir «confidencial» no cambia las condiciones del proveedor.",
+          "Elimina nombres e identificadores innecesarios antes de practicar con notas de entrevistas."
+        ],
+        [
+          "Evaluar antes de mejorar",
+          "Prueba los prompts con casos representativos y difíciles. Compara fidelidad, integridad, formato y errores. Versiona las instrucciones para medir cambios con ejemplos estables. Una demostración brillante no demuestra fiabilidad.",
+          "Compara dos prompts sobre diez actas: cuenta necesidades inventadas, omisiones y correcciones."
+        ],
+        [
+          "Elegir una técnica de prompting",
+          "Zero-shot describe la tarea sin ejemplos; few-shot añade ejemplos de salida. La descomposición divide el trabajo en pasos verificables. Las salidas estructuradas definen campos reutilizables. Combina técnicas cuando las pruebas demuestren su utilidad.",
+          "Extrae los hechos, revísalos y después propone requisitos. No mezcles pruebas y sugerencias."
+        ],
+        [
+          "Resumir sin perder las pruebas",
+          "Selecciona documentos pertinentes e identifica sus versiones. Relaciona cada hallazgo con una referencia. Distingue cita, reformulación e interpretación. Conserva las contradicciones y no conviertas las ausencias en afirmaciones.",
+          "Si una persona exige aprobación automática y otra revisión humana, presenta el conflicto para que se decida."
+        ],
+        [
+          "Mantener los prompts reutilizables",
+          "Un prompt compartido necesita instrucciones versionadas, ejemplos, datos aprobados y criterios de revisión. Separa hechos, supuestos, requisitos propuestos y preguntas. Prueba los cambios antes de reemplazar la versión del equipo.",
+          "La síntesis de entrevistas, las historias de usuario y el análisis de impactos necesitan controles de calidad específicos."
+        ]
+      ]
+    },
+    {
+      "name": "Identificar",
+      "description": "Convertir un problema de negocio en un caso de uso útil.",
+      "outcome": "Comparar valor, preparación y riesgo antes de elegir tecnología.",
+      "exercise": "Evalúa un asistente de actas: problema, usuarios, valor, datos, riesgos y solución mínima. Da una razón válida para no lanzar el piloto.",
+      "check": "El piloto necesita volumen útil, datos autorizados, responsable y calidad medible. Sin derechos o consentimiento, revisa el alcance.",
+      "lessons": [
+        [
+          "Partir del problema de negocio",
+          "Describe quién encuentra el problema, en qué actividad, con qué frecuencia y coste. Define un resultado observable antes de elegir tecnología. A veces simplificar el proceso aporta más que introducir IA.",
+          "«Se necesitan dos horas para localizar una cláusula» permite medir. «Queremos un chatbot» solo propone una solución."
+        ],
+        [
+          "Elegir la solución viable más sencilla",
+          "Compara ausencia de IA, reglas, prompting, RAG, flujos y agentes. Añade autonomía únicamente si hacen falta decisiones adaptables y controlables. La complejidad técnica no demuestra valor.",
+          "Un correo estándar puede usar una plantilla. Las políticas internas necesitan fuentes. Las actualizaciones de sistemas requieren controles de acción."
+        ],
+        [
+          "Calcular un caso de negocio realista",
+          "Estima volumen, tiempo realmente ahorrado, revisión, operación y adopción. Define una referencia inicial y una meta. El tiempo liberado no equivale automáticamente a ahorro financiero; incluye implantación y cambio organizativo.",
+          "El valor neto debe descontar operación, revisión humana y puesta en marcha de los beneficios efectivamente adoptados."
+        ],
+        [
+          "Verificar la viabilidad antes de la demo",
+          "Comprueba datos, permisos, calidad, integraciones, latencia y capacidades operativas. Una idea sin propietario documental ni derechos de uso necesita preparación antes de un piloto.",
+          "Revisa anexos, versiones y accesos antes de juzgar un asistente de contratos con tres ejemplos seleccionados."
+        ],
+        [
+          "Priorizar valor, preparación y riesgo",
+          "Un valor alto y buena preparación pueden justificar un piloto limitado si el riesgo es controlable. El valor alto sin preparación requiere invertir en requisitos previos. El valor bajo y la complejidad alta pueden justificar parar.",
+          "Comparar cien contratos al mes puede aportar valor; una integración costosa utilizada dos veces al año quizá no."
+        ],
+        [
+          "Calificar una petición en treinta minutos",
+          "Aclara usuario y problema, resultado esperado, datos autorizados, errores tolerables y responsable de decisión. Identifica quién operará el servicio. Mide la situación inicial antes de prometer beneficios.",
+          "Sustituye «queremos un agente» por «reducir el triaje de 30 a 15 minutos sin aumentar errores, revisando los casos sensibles»."
+        ]
+      ]
+    },
+    {
+      "name": "Diseñar",
+      "description": "Definir comportamientos de IA que se puedan comprobar.",
+      "outcome": "Especificar pruebas, controles y criterios de aceptación.",
+      "exercise": "Redacta una historia de usuario para un asistente documental y criterios para respuesta con fuente, falta de pruebas y acceso denegado.",
+      "check": "Comprueba citas autorizadas, abstención sin pruebas y ausencia de filtraciones cuando se deniega el acceso.",
+      "lessons": [
+        [
+          "Hacer observables los requisitos",
+          "Define usuarios, entradas, fuentes, salidas, permisos, umbrales, latencia y coste. Especifica qué ocurre ante pruebas ausentes o contradictorias. Un comportamiento probabilístico necesita expectativas medibles.",
+          "«Cada afirmación sobre una política cita una fuente autorizada; sin prueba suficiente, el asistente lo indica»."
+        ],
+        [
+          "Diseñar la prueba antes de la respuesta",
+          "Identifica propietarios, fechas de validez, actualizaciones y accesos. Evalúa por separado si la búsqueda recupera los fragmentos adecuados y si la generación los utiliza fielmente. Una fuente obsoleta bien recuperada sigue siendo un problema.",
+          "Incluye versión, estado y fecha en los metadatos; prueba políticas vigentes y sustituidas."
+        ],
+        [
+          "Crear un piloto que permita decidir",
+          "Define alcance, referencia inicial, escenarios, aceptación y responsable. Incluye casos límite, fallos y condiciones de parada. El piloto debe demostrar valor y control antes de ampliarse.",
+          "Prueba respuestas correctas, ausentes, prohibidas y contradictorias, no solo el camino ideal."
+        ],
+        [
+          "Separar las capas funcionales",
+          "Distingue experiencia de usuario, orquestación, modelos, datos, herramientas y controles transversales. Define dónde se aplican los permisos y se miden los errores. Un modelo potente no corrige una frontera de acceso insegura.",
+          "Filtra las fuentes según los derechos antes de generar; muestra las citas y permite señalar problemas."
+        ],
+        [
+          "Definir estados y límites del flujo",
+          "Especifica disparador, estado, herramientas permitidas, transiciones, errores y parada. Define aprobaciones humanas y comportamiento tras rechazo o timeout. Reintentar una acción no debe duplicarla.",
+          "Antes de crear un ticket, valida campos y duplicados, obtiene aprobación si procede, crea una vez y confirma."
+        ],
+        [
+          "Medir tres niveles de éxito",
+          "La calidad técnica incluye pertinencia y fidelidad. La operativa, latencia, disponibilidad y coste. El valor de negocio incluye tareas logradas, ahorro neto y adopción. Relaciona los niveles sin confundirlos.",
+          "Una respuesta de un segundo que exige cinco minutos de corrección puede aportar poco valor. Mide la tarea completa."
+        ]
+      ]
+    },
+    {
+      "name": "Controlar",
+      "description": "Integrar seguridad, responsabilidad y supervisión humana.",
+      "outcome": "Convertir riesgos en controles verificables con responsables.",
+      "exercise": "Crea tres filas de una matriz de riesgos de un asistente de RR. HH.: riesgo, control, propietario y prueba.",
+      "check": "Filtración → permisos → seguridad → prueba entre roles; respuesta antigua → versiones → RR. HH. → prueba de vigencia; decisión indebida → revisión → negocio → registro.",
+      "lessons": [
+        [
+          "Ver más allá de las alucinaciones",
+          "Considera fiabilidad, sesgos, privacidad, propiedad intelectual, acciones no autorizadas y seguridad. Asocia cada riesgo a control, responsable y verificación. Una respuesta exacta aún puede ser perjudicial.",
+          "Citar correctamente un salario es una filtración si quien pregunta no tiene permiso."
+        ],
+        [
+          "Reconocer la inyección de prompts",
+          "Los documentos pueden contener instrucciones maliciosas. El contenido recuperado es un dato, no una autoridad que sustituya las reglas. Limita permisos de herramientas y prueba los abusos. Una consigna general de prudencia no es un control técnico.",
+          "Un PDF que ordena exportar la base de clientes no debe activar esa acción."
+        ],
+        [
+          "Hacer operativa la supervisión humana",
+          "Define quién revisa, aprueba, corrige y gestiona incidentes. Prevé escalado, registros adecuados y parada. Las obligaciones legales dependen del contexto y deben verificarse en fuentes oficiales aplicables.",
+          "Una acción financiera necesita aprobación adecuada antes de ejecutarse, trazabilidad y gestión de errores."
+        ],
+        [
+          "Proteger todo el recorrido del dato",
+          "Examina entradas, documentos, contexto enviado al proveedor, salidas, registros y conservación. Aplica minimización, acceso por roles, plazos y borrado. Ocultar datos en pantalla no los elimina de los logs.",
+          "No conserves indefinidamente información personal de reuniones en registros accesibles a todo el equipo."
+        ],
+        [
+          "Convertir principios responsables en requisitos",
+          "Equidad, transparencia y responsabilidad requieren controles observables: comparar grupos pertinentes, informar, asignar responsabilidad y permitir recurso. Las obligaciones europeas dependen del uso y los roles, no del nombre comercial. Verifica la normativa vigente.",
+          "Un asistente de selección exige análisis específico; un clic humano no basta para demostrar conformidad."
+        ],
+        [
+          "Preparar contratos e incidentes",
+          "Aclara uso de entradas por el proveedor, retención, ubicación, derechos sobre salidas y notificaciones. Define detección, contención, suspensión, escalado y corrección. Mejorar un prompt no resuelve por sí solo un incidente.",
+          "Ante una fuga, limita el acceso afectado, conserva las pruebas apropiadas e involucra seguridad y protección de datos."
+        ]
+      ]
+    },
+    {
+      "name": "Escalar",
+      "description": "Ampliar los usos útiles sin perder el control.",
+      "outcome": "Organizar operaciones, adopción y medición continuada del valor.",
+      "exercise": "Diseña un agente creador de tickets: disparador, datos, herramientas, validación, parada e indicadores.",
+      "check": "Limita derechos, valida campos, evita duplicados, registra acciones y detén el sistema tras errores repetidos.",
+      "lessons": [
+        [
+          "Añadir complejidad solo cuando haga falta",
+          "Empieza con prompts reutilizables y después flujos explícitos. Los agentes deciden y actúan dentro de límites: necesitan estados, parada y observación. Una secuencia estable puede no necesitar autonomía.",
+          "Extraer, verificar y redactar puede ser más fácil de probar y operar mediante un flujo explícito."
+        ],
+        [
+          "Herramientas, conectores y MCP",
+          "Un conector accede a un sistema o datos. Una herramienta expone una operación. Model Context Protocol estandariza intercambios entre clientes IA y servidores de capacidades. No garantiza automáticamente autenticación ni permisos seguros.",
+          "Una herramienta de tickets necesita campos limitados, identidad verificada, registros y gestión de errores."
+        ],
+        [
+          "Tratar la adopción como trabajo de producto",
+          "Asigna propietarios de negocio, técnicos y de contenido. Forma usuarios, ofrece soporte y mide uso repetido, calidad, coste y valor. Prepara cambios e incidentes. Las cuentas creadas no demuestran mejoras del trabajo.",
+          "Sigue tareas logradas y tiempo neto ahorrado tras revisión, no solo registros el día del lanzamiento."
+        ],
+        [
+          "Elegir la orquestación antes de añadir agentes",
+          "La secuencia sirve para pasos dependientes; el enrutamiento elige un camino; el paralelo, tareas independientes; planificador-ejecutor, objetivos variables. Cada componente añade costes, fallos posibles y supervisión.",
+          "Tres pasos conocidos no requieren tres agentes autónomos. Empieza por la estructura comprobable más sencilla."
+        ],
+        [
+          "Construir el modelo operativo",
+          "Asigna responsables de usos, contenidos, plataforma, soporte, seguridad y presupuesto. Versiona cambios y establece revisiones. El servicio debe poder observarse, corregirse y detenerse aunque su creador se marche.",
+          "Evita una demo en producción sin propietario, con documentos antiguos y una factura API sin vigilancia."
+        ],
+        [
+          "Comprobar el valor después del lanzamiento",
+          "La adopción exige tareas útiles, formación, feedback e integración. Mide uso repetido, éxito, beneficio neto, incidentes y coste por tarea. Controla deriva de datos y cambios de modelo; prepara evaluaciones y reversión.",
+          "Si 500 personas lo abren una vez y luego lo abandonan, investiga calidad, confianza y esfuerzo de revisión."
+        ]
+      ]
+    }
+  ],
+  "decisions": [
+    [
+      "Una factura inferior a 500 € se aprueba si todos los campos están presentes. ¿Qué probar primero?",
+      "Una regla explícita",
+      "Un LLM sin restricciones",
+      "Un modelo predictivo propio",
+      "Correcto: el comportamiento es estable y totalmente especificable.",
+      "Añade variabilidad a una decisión determinista.",
+      "No existe un patrón desconocido que requiera entrenamiento."
+    ],
+    [
+      "El modelo inventa una fecha de lanzamiento ausente en las notas. ¿Qué hacer?",
+      "Mantenerla porque parece razonable",
+      "Convertirla en pregunta por confirmar",
+      "Tratarla como compromiso",
+      "La plausibilidad no demuestra procedencia.",
+      "Correcto: separa lo ausente de los hechos validados.",
+      "Un modelo no puede inventar un compromiso del negocio."
+    ],
+    [
+      "Un empleado recibe una política reservada a responsables. ¿Qué falta?",
+      "Un modelo más nuevo",
+      "Un prompt más educado",
+      "Filtrar permisos antes del contexto",
+      "La novedad no aplica derechos de acceso.",
+      "La cortesía no crea una frontera de autorización.",
+      "Correcto: filtra las fuentes antes de enviarlas al modelo."
+    ],
+    [
+      "Hay 8 000 solicitudes etiquetadas en cinco categorías. ¿Qué aprendizaje encaja?",
+      "Supervisado",
+      "No supervisado",
+      "Por refuerzo",
+      "Correcto: las etiquetas aportan respuestas esperadas.",
+      "El no supervisado descubre estructura sin etiquetas previas.",
+      "Aquí no se aprende una acción mediante recompensas."
+    ],
+    [
+      "Una foto sirve para detectar una pieza defectuosa. ¿Cuál es la capacidad?",
+      "La imagen",
+      "Clasificación o detección",
+      "El transformer",
+      "La imagen es el tipo de entrada, no la tarea.",
+      "Correcto: describe el resultado buscado.",
+      "Transformer es arquitectura, no objetivo de negocio."
+    ],
+    [
+      "Una política antigua aparece antes que la vigente. ¿Prioridad?",
+      "Aumentar creatividad",
+      "Eliminar citas",
+      "Filtrar versiones y vigencia",
+      "La creatividad no actualiza las pruebas.",
+      "Eliminar citas oculta el problema.",
+      "Correcto: pertinencia semántica no significa actualidad."
+    ],
+    [
+      "¿Qué instrucción hace revisables las necesidades extraídas?",
+      "Haz un trabajo excelente",
+      "Cita la fuente de cada necesidad e indica carencias",
+      "Muestra mucha seguridad",
+      "No define pruebas ni formato.",
+      "Correcto: el BA puede comprobar procedencia y ausencias.",
+      "La seguridad de tono puede ocultar incertidumbre."
+    ],
+    [
+      "La prueba incluye nombres de clientes y contratos. ¿Primer paso?",
+      "Pegarlos en cualquier herramienta pública",
+      "Verificar autorización y minimizar datos",
+      "Escribir confidencial",
+      "Una prueba no autoriza transferencias indebidas.",
+      "Correcto: comprueba entorno, derechos y campos necesarios.",
+      "Una etiqueta no cambia conservación ni acceso."
+    ],
+    [
+      "Un prompt nuevo funciona muy bien una vez. ¿Está listo?",
+      "Sí, basta la demo",
+      "Sí, si el texto es más largo",
+      "No sin comparar casos representativos",
+      "Un ejemplo no revela regresiones.",
+      "La longitud no mide fidelidad.",
+      "Correcto: compara errores, omisiones y revisión con casos estables."
+    ],
+    [
+      "La estructura de salida varía demasiado. ¿Qué probar?",
+      "Dos ejemplos del formato esperado",
+      "Cambiar inmediatamente de proveedor",
+      "Quitar todas las restricciones",
+      "Correcto: aclara el formato y comprueba otros casos.",
+      "Cambiar proveedor no expresa un requisito omitido.",
+      "Quitar límites puede aumentar la variación."
+    ],
+    [
+      "Dos entrevistas exigen reglas opuestas. ¿Cómo resumir?",
+      "Elegir la última sin explicarlo",
+      "Inventar un compromiso",
+      "Exponer el conflicto para decidir",
+      "Ser reciente no confiere autoridad.",
+      "Un compromiso inventado no está validado.",
+      "Correcto: conserva posiciones y busca al decisor."
+    ],
+    [
+      "El equipo reutilizará el prompt cada semana. ¿Qué entregar?",
+      "Solo su texto",
+      "Versión, ejemplos, reglas y criterios de revisión",
+      "Promesa de cero errores",
+      "Sin criterios no se miden mejoras.",
+      "Correcto: permite repetibilidad y mantenimiento.",
+      "Las promesas no sustituyen pruebas ni revisión."
+    ],
+    [
+      "El patrocinador pide un chatbot. ¿Qué preguntar?",
+      "¿De qué color?",
+      "¿Qué problema de trabajo afecta a quién y con qué impacto?",
+      "¿Cuántos parámetros?",
+      "El diseño visual viene después del problema.",
+      "Correcto: transforma la solución pedida en un problema medible.",
+      "El tamaño no demuestra necesidad de negocio."
+    ],
+    [
+      "Un email estándar sigue una aprobación por reglas. ¿Qué proponer?",
+      "Un flujo determinista",
+      "Un agente autónomo",
+      "Entrenamiento propio",
+      "Correcto: el proceso ya está definido.",
+      "No hay decisión adaptable que justifique autonomía.",
+      "El entrenamiento no aporta valor a una plantilla conocida."
+    ],
+    [
+      "Redactar ahorra 8 minutos y revisar añade 6. ¿Ahorro neto previo a costes?",
+      "8 minutos",
+      "14 minutos",
+      "2 minutos",
+      "Ignora el nuevo trabajo de revisión.",
+      "La revisión es coste, no beneficio.",
+      "Correcto: 8 menos 6 son 2 minutos."
+    ],
+    [
+      "Nadie sabe quién autoriza el acceso a contratos. ¿Qué hacer?",
+      "Pilotar con todos",
+      "Aclarar permisos y propiedad antes",
+      "No mencionar los contratos",
+      "El valor no sustituye los derechos.",
+      "Correcto: es una condición previa.",
+      "Ocultarlo no crea autorización."
+    ],
+    [
+      "A tiene alto valor, fuentes listas y riesgo controlable; B, poco valor e integraciones sensibles. ¿Primero?",
+      "A, con alcance y criterios limitados",
+      "B, porque es complejo",
+      "Ambos sin condiciones",
+      "Correcto: la preparación ayuda; el valor aún debe comprobarse.",
+      "La complejidad es un coste, no valor.",
+      "Se necesitan prioridades y condiciones de entrada."
+    ],
+    [
+      "¿Qué objetivo guía una evaluación?",
+      "Ser innovador",
+      "Usar el mejor modelo",
+      "Bajar el triaje de 30 a 15 minutos sin más errores",
+      "Faltan referencia y resultado observable.",
+      "La tecnología no expresa beneficio.",
+      "Correcto: referencia, meta y calidad son comprobables."
+    ],
+    [
+      "¿Qué criterio de aceptación se puede probar?",
+      "Una respuesta inteligente",
+      "Cada afirmación cita una fuente autorizada o se abstiene",
+      "La IA conoce nuestros documentos",
+      "Inteligente no especifica conducta observable.",
+      "Correcto: citas y abstención se prueban con escenarios.",
+      "Faltan fuentes, permisos y gestión de carencias."
+    ],
+    [
+      "El párrafo correcto nunca llega al modelo. ¿Qué inspeccionar?",
+      "Búsqueda y preparación documental",
+      "Estilo de escritura",
+      "Color de citas",
+      "Correcto: comprueba primero la recuperación.",
+      "Un buen estilo no cita pruebas ausentes.",
+      "La presentación no recupera la fuente."
+    ],
+    [
+      "El piloto solo usa preguntas fáciles de un PDF. ¿Qué añadir?",
+      "Más demos similares",
+      "Casos ausentes, contradictorios y prohibidos",
+      "Un nombre de producto",
+      "Más casos ideales no comprueban límites.",
+      "Correcto: prueba abstención, conflictos y acceso.",
+      "El nombre no aporta pruebas de calidad."
+    ],
+    [
+      "¿Dónde aplicar permisos documentales en RAG?",
+      "Una advertencia tras generar",
+      "Antes de enviar fragmentos al modelo",
+      "Solo en CSS",
+      "Los datos ya cruzaron la frontera.",
+      "Correcto: el contexto ya debe estar autorizado.",
+      "Ocultar en pantalla no restringe el acceso técnico."
+    ],
+    [
+      "Crear un ticket agota el tiempo y se reintenta. ¿Qué riesgo diseñar?",
+      "Tickets duplicados",
+      "Fuente del título",
+      "Poca creatividad",
+      "Correcto: verifica resultado o idempotencia y limita reintentos.",
+      "El estilo es secundario ante acciones repetidas.",
+      "La creatividad no es el objetivo."
+    ],
+    [
+      "Las respuestas son rápidas y fieles, pero nadie usa la herramienta. ¿Qué no se demostró?",
+      "Latencia",
+      "Valor de negocio y adopción",
+      "Longitud del contexto",
+      "La latencia ya es buena.",
+      "Correcto: investiga tareas, confianza, integración y beneficio neto.",
+      "Más contexto no resuelve la adopción automáticamente."
+    ],
+    [
+      "Una respuesta exacta revela un salario sin permiso. ¿Éxito?",
+      "Sí, la cifra es correcta",
+      "No, fallaron privacidad y autorización",
+      "Sí, tiene fuente",
+      "Exactitud no significa autorización.",
+      "Correcto: necesita ser exacta y estar permitida.",
+      "Una fuente restringida sigue siendo restringida."
+    ],
+    [
+      "Un PDF ordena exportar los clientes. ¿Qué control?",
+      "Obedecer por ser interno",
+      "Tratarlo como dato y limitar herramientas",
+      "Solo pedir prudencia",
+      "Lo interno también puede estar comprometido.",
+      "Correcto: separa contenido e instrucciones y limita capacidades.",
+      "Una consigna general no sustituye límites técnicos."
+    ],
+    [
+      "¿Qué control es operativo?",
+      "El sistema es responsable",
+      "Habrá pocos problemas",
+      "Un propietario valida casos sensibles; se registran y prueban",
+      "No se define persona ni prueba.",
+      "La baja frecuencia no gestiona impactos.",
+      "Correcto: hay propietario, conducta y verificación."
+    ],
+    [
+      "Los datos personales no se ven pero siguen en logs. ¿Conclusión?",
+      "Protección completa",
+      "El recorrido del dato no está controlado",
+      "Cambiar el mensaje",
+      "La pantalla es solo una etapa.",
+      "Correcto: revisa minimización, acceso, retención y borrado.",
+      "Un mensaje no cambia datos guardados."
+    ],
+    [
+      "Un asistente ordena candidatos. ¿Cómo revisar obligaciones?",
+      "Un clic humano garantiza conformidad",
+      "Evaluar uso real con responsables y fuentes oficiales",
+      "Llamarlo chatbot",
+      "La supervisión no elimina obligaciones.",
+      "Correcto: roles, finalidad e impactos determinan el análisis.",
+      "El nombre no cambia la función."
+    ],
+    [
+      "Se detecta una fuga. ¿Respuesta completa?",
+      "Editar el prompt discretamente",
+      "Continuar para medir adopción",
+      "Limitar acceso, avisar y gestionar el incidente",
+      "Una edición no trata exposición y causas.",
+      "Continuar puede ampliar el impacto.",
+      "Correcto: contiene, preserva pruebas y corrige la causa."
+    ],
+    [
+      "Una tarea sigue tres pasos conocidos. ¿Antes de multiagente?",
+      "Flujo explícito",
+      "Cinco agentes autónomos",
+      "Herramienta con todos los permisos",
+      "Correcto: se puede probar sin autonomía adicional.",
+      "Más agentes no mejoran una secuencia por sí solos.",
+      "Los permisos deben limitarse a las acciones necesarias."
+    ],
+    [
+      "MCP expone un cambio de cliente. ¿Qué queda por diseñar?",
+      "Nada, MCP lo garantiza",
+      "Identidad, permisos, aprobaciones y registros",
+      "Solo el logo",
+      "MCP es protocolo, no garantía de seguridad.",
+      "Correcto: siguen haciendo falta identidad y controles.",
+      "El riesgo afecta a datos y acciones reales."
+    ],
+    [
+      "¿Qué demuestra mejor valor duradero?",
+      "Registros de lanzamiento",
+      "Tareas logradas, uso repetido y beneficio neto",
+      "Número de agentes",
+      "Una cuenta puede no usarse.",
+      "Correcto: relaciona trabajo con beneficios y costes.",
+      "El número de componentes no es valor de negocio."
+    ],
+    [
+      "Una solicitud va a RR. HH., IT o Finanzas según categoría. ¿Patrón?",
+      "Enrutamiento",
+      "Paralelismo obligatorio",
+      "Aprendizaje por refuerzo",
+      "Correcto: elige una vía y necesita tratar ambigüedad.",
+      "No tiene por qué ir a todos los equipos.",
+      "Es orquestación, no aprendizaje."
+    ],
+    [
+      "El creador de la demo se marcha. ¿Qué reduce el riesgo?",
+      "Nombre memorable",
+      "Roles, manual operativo y relevo",
+      "Prompt secreto",
+      "El nombre no transfiere responsabilidad.",
+      "Correcto: contenidos, presupuesto e incidentes necesitan continuidad.",
+      "El secreto aumenta dependencia."
+    ],
+    [
+      "Suben los errores tras cambiar modelo. ¿Qué ayuda?",
+      "Evaluaciones versionadas, vigilancia y reversión",
+      "Borrar feedback negativo",
+      "Esperar sin comparar",
+      "Correcto: identifica regresión y restaura una versión válida.",
+      "Ocultar señales impide corregir.",
+      "Sin referencia el problema puede extenderse."
+    ]
+  ]
+}

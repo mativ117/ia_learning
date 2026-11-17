@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const code=fs.readFileSync(new URL('../data/curriculum.js',import.meta.url),'utf8');
+const {stages,glossary}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+test('every stage has usable lessons, exercises and valid quiz answers',()=>{assert.equal(stages.length,6);assert.equal(new Set(stages.map(s=>s.id)).size,6);for(const s of stages){assert.equal(s.lessons.length,3);assert.ok(s.exercise&&s.check);assert.equal(s.quiz.length,3);for(const q of s.quiz){assert.ok(Number.isInteger(q[2])&&q[2]>=0&&q[2]<q[1].length);assert.ok(q[3].length>20)}for(const l of s.lessons)assert.equal(l.length,3)}assert.ok(glossary.length>15)});
+test('source covers every curriculum slide and has no excluded business branding',()=>{const text=fs.readFileSync(new URL('../data/source.json',import.meta.url),'utf8');assert.doesNotMatch(text,/orange\s*business/i);const source=JSON.parse(text);for(const s of stages)for(let i=s.range[0];i<=s.range[1];i++)assert.ok(source.some(x=>x.id===i),`Missing slide ${i}`);for(const s of source)for(const url of s.links)assert.ok(/^https?:\/\//.test(url))});
+test('GitHub Pages artifact includes all runtime assets with relative references',()=>{for(const f of ['index.html','style.css','theme.css','app.js','data/curriculum.js','data/source.json','.github/workflows/pages.yml'])assert.ok(fs.existsSync(new URL('../'+f,import.meta.url)));const html=fs.readFileSync(new URL('../index.html',import.meta.url),'utf8');assert.doesNotMatch(html,/(?:src|href)="\/(?!\/)/)});

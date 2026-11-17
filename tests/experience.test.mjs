@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {extensions,decisions,maps} from '../data/experience.js';
+import {valueModel,labNames} from '../labs.js';
+test('36 web sequences have unique decisions and feedback for each option',()=>{let count=0;const questions=new Set();for(const id of Object.keys(extensions)){assert.equal(extensions[id].length,3);assert.equal(decisions[id].length,6);assert.ok(labNames[id]);assert.equal(maps[id].length,4);for(const d of decisions[id]){count++;assert.equal(d[1].length,3);assert.equal(d[3].length,3);assert.ok(d[2]>=0&&d[2]<3);assert.ok(d[3].every(f=>f.length>40));questions.add(d[0]);}}assert.equal(count,36);assert.equal(questions.size,36)});
+test('value calculator subtracts review effort, accounts for adoption and permits negative net',()=>{const result=valueModel({volume:500,minutes:8,review:6,adoption:60,cost:300,rate:60});assert.ok(Math.abs(result.hours-10)<1e-9);assert.ok(Math.abs(result.net-300)<1e-9);assert.deepEqual(valueModel({volume:500,minutes:8,review:6,adoption:0,cost:300,rate:60}),{hours:0,net:-300});assert.ok(valueModel({volume:500,minutes:8,review:10,adoption:100,cost:300,rate:60}).net<0)});
+test('Pages ships every module required by the web experience',async()=>{const fs=await import('node:fs');const workflow=fs.readFileSync(new URL('../.github/workflows/pages.yml',import.meta.url),'utf8');for(const file of ['learning.js','labs.js'])assert.ok(workflow.includes(file));});
